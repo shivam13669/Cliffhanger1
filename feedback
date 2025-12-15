@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Himalayan Hikers Feedback Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    background: #fff;
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 1em;
+  }
+  textarea {
+    height: 100px;
+  }
+
+  /* Line by line radio */
+  .radio-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  button {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #219150;
+  }
+
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  thead {
+    background-color: #27ae60;
+    color: white;
+  }
+
+  /* Responsive Scroll Wrapper */
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .table-responsive table {
+    min-width: 600px; /* scroll on small devices */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Himalayan Hikers Feedback Form</h2>
+    <form  action="submit.php" method="POST" enctype="multipart/form-data">
+      
+      <!-- Q1 -->
+      <label for="trekName">1. Trek Name</label>
+      <input type="text" id="trekName" name="trekName" required>
+
+      <!-- Q2 -->
+      <label for="fullName">2. Your Full Name</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <!-- Q3 -->
+      <label for="mobile">3. Mobile Number</label>
+      <input type="number" id="mobile" name="mobile" required>
+
+      <!-- Q4 -->
+      <label for="satisfaction">4. Overall, how satisfied are you with your trekking experience with Himalayan Hikers?</label>
+      <div class="radio-group" id="satisfaction">
+        <label><input type="radio" name="satisfaction" value="Very Satisfied" required> Very Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="Satisfied"> Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="Neutral"> Neutral</label>
+        <label><input type="radio" name="satisfaction" value="Dissatisfied"> Dissatisfied</label>
+        <label><input type="radio" name="satisfaction" value="Very Dissatisfied"> Very Dissatisfied</label>
+      </div>
+
+      <!-- Q5 -->
+      <label>5. How would you rate the following aspects?</label>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Aspect</th>
+              <th>Excellent</th>
+              <th>Good</th>
+              <th>Average</th>
+              <th>Poor</th>
+              <th>Very Poor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Trek planning and support</td>
+              <td><input type="radio" name="planning" value="Excellent" required></td>
+              <td><input type="radio" name="planning" value="Good"></td>
+              <td><input type="radio" name="planning" value="Average"></td>
+              <td><input type="radio" name="planning" value="Poor"></td>
+              <td><input type="radio" name="planning" value="Very Poor"></td>
+            </tr>
+            <tr>
+              <td>Accommodation</td>
+              <td><input type="radio" name="accommodation" value="Excellent" required></td>
+              <td><input type="radio" name="accommodation" value="Good"></td>
+              <td><input type="radio" name="accommodation" value="Average"></td>
+              <td><input type="radio" name="accommodation" value="Poor"></td>
+              <td><input type="radio" name="accommodation" value="Very Poor"></td>
+            </tr>
+            <tr>
+              <td>Food and meals</td>
+              <td><input type="radio" name="food" value="Excellent" required></td>
+              <td><input type="radio" name="food" value="Good"></td>
+              <td><input type="radio" name="food" value="Average"></td>
+              <td><input type="radio" name="food" value="Poor"></td>
+              <td><input type="radio" name="food" value="Very Poor"></td>
+            </tr>
+            <tr>
+              <td>Guides and staff</td>
+              <td><input type="radio" name="guides" value="Excellent" required></td>
+              <td><input type="radio" name="guides" value="Good"></td>
+              <td><input type="radio" name="guides" value="Average"></td>
+              <td><input type="radio" name="guides" value="Poor"></td>
+              <td><input type="radio" name="guides" value="Very Poor"></td>
+            </tr>
+            <tr>
+              <td>Safety measures</td>
+              <td><input type="radio" name="safety" value="Excellent" required></td>
+              <td><input type="radio" name="safety" value="Good"></td>
+              <td><input type="radio" name="safety" value="Average"></td>
+              <td><input type="radio" name="safety" value="Poor"></td>
+              <td><input type="radio" name="safety" value="Very Poor"></td>
+            </tr>
+            <tr>
+              <td>Equipment and gear</td>
+              <td><input type="radio" name="equipment" value="Excellent" required></td>
+              <td><input type="radio" name="equipment" value="Good"></td>
+              <td><input type="radio" name="equipment" value="Average"></td>
+              <td><input type="radio" name="equipment" value="Poor"></td>
+              <td><input type="radio" name="equipment" value="Very Poor"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Q6 -->
+      <label for="likes">6. What did you like the most about your trek?</label>
+      <textarea id="likes" name="likes" placeholder="Write your thoughts here..."></textarea>
+
+      <!-- Q7 -->
+      <label for="improvements">7. What can we improve?</label>
+      <textarea id="improvements" name="improvements" placeholder="Your suggestions..."></textarea>
+
+      <!-- Q8 -->
+      <label for="problems">8. Did you face any problems during your trek? If yes, please specify.</label>
+      <textarea id="problems" name="problems" placeholder="Describe any issues..."></textarea>
+
+      <!-- Q9 -->
+      <label>9. Would you recommend Himalayan Hikers to others?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="recommend" value="Definitely" required> Definitely</label>
+        <label><input type="radio" name="recommend" value="Maybe"> Maybe</label>
+        <label><input type="radio" name="recommend" value="Not sure"> Not sure</label>
+        <label><input type="radio" name="recommend" value="Probably not"> Probably not</label>
+        <label><input type="radio" name="recommend" value="No"> No</label>
+      </div>
+
+      <!-- Q10 -->
+      <label for="other-comments">10. Any other comments or suggestions?</label>
+      <textarea id="other-comments" name="otherComments" placeholder="Write here..."></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /user-profile/
+Disallow: /login/
+Disallow: /register/
+Disallow: /thank-you/
+# Admin panel disallowed except trek_images folder
+Disallow: /root-admin-laravel-panel/
+Allow: /root-admin-laravel-panel/uploads/trek_images/
+
+# Block some aggressive bots
+User-agent: himalayanadmin.k@gmail.com
+Disallow: /
+
+Sitemap: https://himalayanhikers.in/sitemap.xml
+

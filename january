@@ -1,0 +1,3514 @@
+
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Favicons - Place favicon.ico in the root directory -->
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/img/faviconspng">
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons.png">
+<link rel="manifest" href="../assets/img/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../assets/img/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--==============================
+   Google Fonts
+   ============================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap" rel="stylesheet">
+<!--==============================
+   All CSS File
+   ============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<!-- Fontawesome Icon -->
+<link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="../assets/css/magnific-popup.min.css">
+<!-- Swiper css -->
+<link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+<!-- Theme Custom CSS -->
+<link rel="stylesheet" href="../assets/css/style.css">
+<!-- Clarity tracking code for https://himalayanhikers.in/ -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G12QPCC6EP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G12QPCC6EP');
+</script>
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "th9jncbuc2");
+</script>
+<style>
+input[type="checkbox"] ~ label:before {
+    background-color: #efefef;
+    border: 2px solid #000;
+}
+</style>
+
+   <!--==============================
+      Mobile Menu
+      ============================== -->
+   <div class="th-menu-wrapper onepage-nav">
+      <div class="th-menu-area text-center">
+         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+         <div class="mobile-logo">
+            <a href="https://himalayanhikers.in"><img src="../assets/img/logo.webp" alt="Himalayan Hikers" style=" width: 85% !important;"></a>
+         </div>
+         <div class="th-mobile-menu">
+            <ul>
+               <li class="menu-item-has-children">
+                  <a class="active" href="https://himalayanhikers.in/">fixed departure treks</a>
+                  <ul class="sub-menu">
+                      <li> <a href="upcoming-autumn-trek"> Upcoming Autumn Trek </a> </li>
+                      <li> <a href="upcoming-monsoon-trek"> Upcoming Monsoon Trek </a> </li>
+                      <li> <a href="upcoming-spring-trek"> Upcoming Spring Trek </a> </li>
+                      <li> <a href="upcoming-summer-trek"> Upcoming Summer Trek </a> </li>
+                      <li> <a href="upcoming-winter-trek"> Upcoming Winter Trek </a> </li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Our Story</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/about-us">About Us</a></li>
+                     <li><a href="https://himalayanhikers.in/our-mission">Our Mission</a></li>
+                     <li><a href="https://himalayanhikers.in/our-commitments">Our Commitment</a></li>
+                     <li><a href="https://himalayanhikers.in/explore-our-leadership">Our Leadership</a></li>
+                     <li><a href="https://himalayanhikers.in/connecting-to-himalayas">Connecting To Himalayas</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Learning Trail Program</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/school-outdoor-learning-program">Scool Program</a></li>
+                     <li><a href="https://himalayanhikers.in/university-outdoor-learning-program">University Program</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Expeditions</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/satopanth-expedition">Satopanth ( 7075 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/kalindi-pass">Kalindi Pass ( 6000 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/black-peak-expedition">Black Peak ( 6387 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/kedar-dome-expedition">Kedar Dome ( 6831 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/bhagirathi-peak-expedition">Bhagirathi Peak 2 ( 6512 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/shivling-peak-expedition">Shivling Peak ( 6543 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/ranglana-peak-expedition">Ranglana Peak ( 5554 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/bandarpunch-expedition">Bandarpunch ( 6316 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/mt-kamet-expedition">Mt. Kamet (7756 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/nanda-ghunti-peak-expedition">Nanda Ghunti Peak Expedition</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="https://himalayanhikers.in/blog">Articles</a>
+                  <ul class="sub-menu">
+                                          <li class="menu-item-has-children">
+                        <a href="/category/health-altitude-awareness">
+                        Health & Altitude Awareness                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/mountain-sickness-acclimatization">Mountain Sickness & Acclimatization</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/inspiration-philosophy">
+                        Inspiration & Philosophy                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/family-kids-women-trekking">Family, Kids & Women Trekking</a></li>
+                                                      <li><a href="/category/local-info-stay-services">Local Info, Stay & Services</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/news-announcements">
+                        News & Announcements                                                </a>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/pilgrimage-yatra">
+                        Pilgrimage & Yatra                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/spiritual-mythological-treks">Spiritual & Mythological Treks</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/trek-destinations-comparisons">
+                        Trek Destinations & Comparisons                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/best-treks-by-region">Best Treks by Region</a></li>
+                                                      <li><a href="/category/seasonal-time-based-treks">Seasonal & Time-Based Treks</a></li>
+                                                      <li><a href="/category/trek-guides-honest-reviews">Trek Guides & Honest Reviews</a></li>
+                                                      <li><a href="/category/trek-planning-gear-safety">Trek Planning, Gear & Safety</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/trekking-zones">
+                        Trekking Zones                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/forest-protection">Forest Protection</a></li>
+                                                   </ul>
+                                             </li>
+                                       </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Yatra</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/char-dham-yatra">Chard Dham Yatra</a></li>
+                     <li><a href="https://himalayanhikers.in/do-dham-yatra">Do Dham Yatra</a></li>
+                     <li><a href="https://himalayanhikers.in/kedarnath-trek">Kedarnath Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/badrinath-trek">Badrinath Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/hemkund-sahib-trek">Hemkund Shahib trek</a></li>
+                     <li><a href="https://himalayanhikers.in/panch-kedar-trek">Panch kedar trek</a></li>
+                     <li><a href="https://himalayanhikers.in/tungnath-trek">Tungnath trek</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Customize Trek</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/private-trek">Private Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/corporate-trek">Corporate Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/family-trek">Family Trek</a></li>
+                  </ul>
+               </li>
+               <div class="custom-buttons-mb">
+                  <a href="https://himalayanhikers.in/careers" class="custom-btn-mb"><i class="fas fa-briefcase"></i> Careers</a>
+                  <a href="https://himalayanhikers.in/support" class="custom-btn-mb"><i class="fas fa-headset"></i> Support & Assistance</a>
+                  <a href="#" class="custom-btn-mb"><i class="fas fa-shopping-cart"></i> Shop</a>
+                  <a href="https://rent.himalayanhikers.in/" target="blank" class="custom-btn-mb"><i class="fas fa-hiking"></i> Rent Gear</a>
+               </div>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!--==============================
+      Header Area
+      ==============================-->
+   <style>
+      .custom-buttons-mb {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 20px 0;
+      }
+      .custom-btn-mb {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border: 2px solid black;   
+      background-color: transparent; 
+      color: black;  
+      padding: 12px 16px;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+      }
+      .custom-btn-mb:hover {
+      background-color: #4e7325; 
+      color: #fff;
+      }
+      .custom-btn-mb i {
+      font-size: 18px;
+      width: 24px;
+      text-align: center;
+      margin-right: 8px;
+      }
+      
+      
+         .whatsapp a {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 40px;
+  left: 30px;
+  z-index: 40;
+  cursor: pointer;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+  animation: pulse-black 2s infinite;
+  -webkit-animation: pulse-black 2s infinite;
+  -moz-animation: pulse-black 2s infinite;
+  -ms-animation: pulse-black 2s infinite;
+  -o-animation: pulse-black 2s infinite;
+  background-color: #4dc247;
+    color: #fff;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.whatsapp a:hover {
+  background-color: 191D3B;
+}
+.whatsapp a i {
+  font-size: 28px;
+}
+   </style>
+   <div class="whatsapp">
+    <a class="d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=917505699509&amp;source=Website&amp;text=Hello,Himalayan Hikers"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+   <header class="th-header1">
+      <!-- Top Header -->
+      <div class="header-top1">
+         <div class="header-container ">
+            <div class="header-inner1">
+               <!-- Logo -->
+               <!-- Desktop Logo Only -->
+               <div class="header-logo-desktop">
+                  <a href="https://himalayanhikers.in">
+                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  </a>
+               </div>
+               <!-- Mobile Logo + Menu Button -->
+               <div class="header-logo-mobile">
+                  <a href="https://himalayanhikers.in">
+                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  </a>
+                  <!-- Search button -->
+                  <i class="fa fa-search search-btn"></i>
+                  <!-- Menu button -->
+                  <button type="button" class="th-menu-toggle">
+                  <i class="far fa-bars"></i>
+                  </button>
+               </div>
+               <div class="mobile-search header-search1" id="mobileSearch">
+                  <input type="text" id="mobileSearchInput" placeholder="Search here...">
+                  <i class="fa fa-search search-icon"></i>
+               </div>
+               <!-- Mobile search result dropdown -->
+               <div id="mobileSearchResults" style="
+                  position: absolute;
+                  top: 100px; /* adjust based on your layout */
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 90%;
+                  background: #fff;
+                  border: 1px solid #ccc;
+                  max-height: 300px;
+                  overflow-y: auto;
+                  display: none;
+                  z-index: 9999;
+                  "></div>
+               <!-- Links -->
+               <div class="header-links1">
+                  <ul class="desktop-only">
+                     <li class="desktop-only"><a href="https://himalayanhikers.in/careers"><i class="fa-solid fa-briefcase"></i>&nbsp;Careers</a></li>
+                     <li class="desktop-only"><a href="https://himalayanhikers.in/support"><i class="fas fa-headset"></i>&nbsp;Support & Assistance</a></li>
+                     <li class="desktop-only"><a href="#"><i class="fa-solid fa-cart-shopping"></i> &nbsp;Shop</a></li>
+                     <li class="desktop-only"><a href="https://rent.himalayanhikers.in/" target="blank"><i class="fas fa-hiking"></i> &nbsp;Rent Gear</a></li>
+                     <li class="desktop-only"><a href="faq"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;Faqs</a></li>
+                  </ul>
+               </div>
+               <!-- Desktop Search -->
+               <!-- HTML -->
+               <div class="header-search1">
+                  <input type="text" id="search" placeholder="Search Trek By Name, region" onkeyup="liveSearch(this.value)">
+                  <div id="livesearch" class="search-results"></div>
+                  <i class="fa fa-search search-icon"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="menu-area1">
+         <div class="nav-container">
+            <!-- Mobile: Search bar + Toggle button -->
+            <nav class="main-menu1">
+               <ul>
+                  <li class="custom-dropdown1"><a href="https://himalayanhikers.in/" style="color: #fff;">fixed departure treks <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                   <ul  class="custom-submenu1" style="  min-width: 240px;">
+              
+                      <li><a href="upcoming-autumn-trek"> Upcoming Autumn Trek </a> </li>
+                      <li><a href="upcoming-monsoon-trek"> Upcoming Monsoon Trek </a> </li>
+                      <li><a href="upcoming-spring-trek"> Upcoming Spring Trek </a> </li>
+                      <li><a href="upcoming-summer-trek"> Upcoming Summer Trek </a> </li>
+                      <li><a href="upcoming-winter-trek"> Upcoming Winter Trek </a> </li>
+              
+                  </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">our Story <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/about-us">About us </a></li>
+                        <li><a href="https://himalayanhikers.in/our-mission">our Mission</a></li>
+                        <li><a href="https://himalayanhikers.in/our-commitments">our Commitment</a></li>
+                        <li><a href="https://himalayanhikers.in/explore-our-leadership">Our Leadership</a></li>
+                              <li><a href="https://himalayanhikers.in/connecting-to-himalayas">Connecting To Himalayas</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Learning Trails Program <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1" style="  min-width: 260px;">
+                        <li><a href="https://himalayanhikers.in/school-outdoor-learning-program">School Program</a></li>
+                        <li><a href="https://himalayanhikers.in/university-outdoor-learning-program">University Program</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Expeditions <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1" style="  min-width: 290px;">
+                        <li><a href="https://himalayanhikers.in/satopanth-expedition">Satopanth ( 7075 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/kalindi-pass">Kalindi Pass ( 6000 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/black-peak-expedition">Black Peak ( 6387 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/kedar-dome-expedition">Kedar Dome ( 6831 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/bhagirathi-peak-expedition">Bhagirathi Peak 2 ( 6512 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/shivling-peak-expedition">Shivling Peak ( 6543 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/ranglana-peak-expedition">Ranglana Peak ( 5554 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/bandarpunch-expedition">Bandarpunch ( 6316 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/mt-kamet-expedition">Mt. Kamet (7756 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/nanda-ghunti-peak-expedition">Nanda Ghunti Peak Expedition</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="https://himalayanhikers.in/blog" style="color: #fff;">
+                     Articles <i class="fa fa-caret-down" aria-hidden="true"></i>
+                     </a>
+                     <ul class="custom-submenu1">
+                                                <li class="custom-dropdown2">
+                           <a href="/category/health-altitude-awareness">
+                           Health & Altitude Awareness 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/mountain-sickness-acclimatization">Mountain Sickness & Acclimatization</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/inspiration-philosophy">
+                           Inspiration & Philosophy 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/family-kids-women-trekking">Family, Kids & Women Trekking</a></li>
+                                                            <li><a href="/category/local-info-stay-services">Local Info, Stay & Services</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/news-announcements">
+                           News & Announcements 
+                                                      </a>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/pilgrimage-yatra">
+                           Pilgrimage & Yatra 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/spiritual-mythological-treks">Spiritual & Mythological Treks</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/trek-destinations-comparisons">
+                           Trek Destinations & Comparisons 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/best-treks-by-region">Best Treks by Region</a></li>
+                                                            <li><a href="/category/seasonal-time-based-treks">Seasonal & Time-Based Treks</a></li>
+                                                            <li><a href="/category/trek-guides-honest-reviews">Trek Guides & Honest Reviews</a></li>
+                                                            <li><a href="/category/trek-planning-gear-safety">Trek Planning, Gear & Safety</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/trekking-zones">
+                           Trekking Zones 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/forest-protection">Forest Protection</a></li>
+                                                         </ul>
+                                                   </li>
+                                             </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Yatra <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/char-dham-yatra">Chard Dham Yatra</a></li>
+                        <li><a href="https://himalayanhikers.in/do-dham-yatra">Do Dham Yatra</a></li>
+                        <li><a href="https://himalayanhikers.in/kedarnath-trek">Kedarnath Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/badrinath-trek">Badrinath Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/hemkund-sahib-trek">Hemkund Shahib trek</a></li>
+                        <li><a href="https://himalayanhikers.in/panch-kedar-trek">Panch kedar trek</a></li>
+                        <li><a href="https://himalayanhikers.in/tungnath-trek">Tungnath trek</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">customize trek <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/private-trek">Private Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/corporate-trek">Corporate Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/family-trek">Family Trek</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+   <style>
+
+      @media screen and (max-width: 768px) {
+      #livesearch {
+      display: none !important;
+      }
+      }
+      .header {
+      height: 80px; /* or whatever your intended height is */
+      overflow: hidden; /* prevents dropdown from expanding header */
+      position: relative;
+      z-index: 1000;
+      }
+      #livesearch {
+      position: fixed;
+      }
+      #livesearch {
+      position: absolute;
+      top: 46px;
+      left: 42%;
+      transform: translateX(-50%);
+      width: 203px;
+      background: #fff;
+      max-height: 300px;
+      overflow-y: auto;
+      z-index: 9999;
+      }
+      @media screen and (max-width: 768px) {
+      .header-search1:not(.mobile-search) {
+      display: none;
+      }
+      }
+      @media screen and (min-width: 769px) {
+      .mobile-search {
+      display: none;
+      }
+      }
+      /* Reset */
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+      body {
+      font-family: Arial, sans-serif;
+      }
+      .container {
+      width: 100%;
+      margin: 0 auto;
+      }
+      /* Make header full-width but preserve internal layout */
+      .header-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      /* Make nav area full-width */
+      .nav-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      .header-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      /* Sticky Header */
+      .th-header1 {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: #fff;
+      }
+      @media (max-width: 768px) {
+      .th-header1 {
+      border-bottom: 3px solid #ddd;
+      }
+      }
+      /* Top Header */
+      .header-top1 {
+      background: #fff;
+      padding: 10px 0;
+      }
+      .header-inner1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      }
+      /* ===== DESKTOP LOGO ONLY ===== */
+      .header-logo-desktop {
+      display: none; /* Hidden by default */
+      }
+      @media (min-width: 992px) {
+      .header-logo-desktop {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      }
+      .header-logo-desktop img {
+      max-height: 70px;
+      padding-left: 40px;
+      width: auto; /* Optional, control width if needed */
+      }
+      }
+      /* ===== MOBILE LOGO + MENU BUTTON ===== */
+      .header-logo-mobile {
+      display: none; /* Hidden by default */
+      }
+      @media (max-width: 991px) {
+      .header-logo-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      }
+      .header-logo-mobile img {
+      max-height: 70px;
+      width: auto; /* Optional */
+      }
+      .th-menu-toggle {
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      }
+      }
+      .search-btn {
+      font-size: 24px;
+      color: #333;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      }
+      .search-btn:hover {
+      color: #007BFF;
+      }
+      .header-search1 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      max-width: 360px;
+      width: 100%;
+      padding-right: 40px;
+      }
+      .header-search1 input {
+      width: 100%;
+      height: 40px;
+      padding: 4px 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 12px;
+      font-family: Franklin Gothic Book;
+      border-radius: 12px;
+      border: 1px solid #ced4da;
+      outline: none;
+      transition: all 0.3s ease;
+      }
+      .header-search1 input:focus {
+      border-color: black;
+      }
+      .search-icon {
+      position: absolute;
+      right: 45px;
+      top: 50%; /* Center the icon vertically */
+      transform: translateY(-50%); /* Perfect vertical centering */
+      font-size: 18px; /* Reduced icon size */
+      color: black;
+      background-color: #E9F6F9; /* Initial background color */
+      border-radius: 12px; /* Circular background */
+      width: 40px; /* Background width */
+      height: 35px; /* Background height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+      }
+      .search-icon:hover {
+      background-color: #ff4300; /* Change background color on hover */
+      color: #fff;
+      }
+      .header-links1 ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      padding-top: 15px;
+      }
+      .header-links1 ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: "Franklin Gothic";
+      }
+      .header-links1 ul li a:hover {
+      color: #ff4300;
+      }
+      /* Hide specific links on mobile */
+      .desktop-only {
+      display: inline-block;
+      }
+      @media (max-width: 991px) {
+      .desktop-only {
+      display: none !important;
+      }
+      .header-links1 ul {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+      }
+      .header-links1 ul li {
+      margin: 0;
+      }
+      .header-search1 {
+      display: none;
+      }
+      }
+      .th-menu-wrapper .mobile-logo {
+      padding-bottom: 20px !important;
+      padding-top: 20px !important;
+      }
+      /* Navigation Area */
+      .menu-area1 {
+      background: #ff4300;
+      /*  border-top: 2px solid #eee;*/
+      /*  border-bottom: 1px solid black;*/
+      padding: 10px 0;
+      font-family: Oswald Regular;
+      }
+      .menu-toggle1 {
+      font-size: 20px;
+      background: #ff4300;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      margin: 0;
+      }
+      /* Mobile Search + Toggle Row */
+      .mobile-search {
+      display: none; /* hidden by default */
+      }
+      .mobile-search button {
+      padding: 8px 12px;
+      background: #ff4500;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      }
+      /* Main Menu */
+      .main-menu1 {
+      display: flex;
+      justify-content: center;
+      }
+      .main-menu1 ul {
+      display: flex;
+      list-style: none;
+      gap: clamp(30px, 8vw, 120px); /* Responsive gap */
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      }
+      .main-menu1 ul li {
+      position: relative;
+      }
+      .main-menu1 ul li a {
+      text-decoration: none;
+      color: #000000ff;
+      font-weight: 850;
+      text-transform: uppercase;
+      transition: 0.3s;
+      }
+      .main-menu1 ul li a:hover {
+      color: white;
+      }
+      /* Dropdown */
+      .custom-dropdown1 {
+      position: relative;
+      }
+      .custom-dropdown1 .custom-submenu1 {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      min-width: 200px;
+      z-index: 999;
+      padding: 0px 0;
+      margin: 10px;
+      pointer-events: auto; /* ensure it can be hovered */
+      }
+      .custom-dropdown1::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 10px; /* same as margin */
+      width: 100%;
+      background: transparent;
+      z-index: 998;
+      }
+      .custom-dropdown1:hover .custom-submenu1 {
+      display: block;
+      }
+      .custom-submenu1 li {
+      width: 100%;
+      }
+      .custom-submenu1 li a {
+      padding: 10px 20px;
+      display: block;
+      font-size: 14px;
+      color: #000;
+      }
+      .custom-dropdown1  li a:hover {
+      background-color: #ffffffff;
+      }
+      .custom-submenu1 li a:hover {
+      background-color: #ff4300;
+      color: #ff4300;
+      }
+      /* Second-Level Dropdown */
+      .custom-dropdown2 {
+      position: relative;
+      }
+      .custom-dropdown2 .custom-submenu2 {
+      display: none;
+      position: absolute;
+      top: 12px;
+      left: calc(100% + 0.8px);
+      background: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      min-width: 200px;
+      z-index: 999;
+      padding: 10px 0;
+      }
+      .custom-dropdown2:hover .custom-submenu2 {
+      display: block;
+      }
+      .custom-submenu2 li {
+      width: 100%;
+      }
+      .custom-submenu2 li a {
+      padding: 10px 20px;
+      display: block;
+      font-size: 14px;
+      color: #000;
+      }
+      .custom-submenu2 li a:hover {
+      background-color: #ff4300;
+      color: #ff4300;
+      }
+      /* Responsive Navigation */
+      @media (max-width: 991px) {
+      .main-menu1 {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      }
+      .main-menu1.open {
+      display: flex;
+      }
+      .main-menu1 ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      }
+      .main-menu1 ul li {
+      width: 100%;
+      text-align: center;
+      }
+      .custom-submenu1 {
+      position: static;
+      box-shadow: none;
+      background: none;
+      padding: 0;
+      }
+      .custom-submenu1 li a {
+      padding: 10px 0;
+      }
+      .menu-area1 {
+      background-color: #fff !important;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      display: none;
+      }
+      .menu-toggle1 {
+      background-color: #fff;
+      color: #ff4300;
+      }
+      .menu-controls {
+      display: flex;
+      }
+      }
+      @media (min-width: 992px) {
+      .menu-controls {
+      display: none;
+      }
+      }
+      /* ✅ Medium Screens Fixes (994px to 1200px) */
+      @media (min-width: 994px) and (max-width: 1200px) {
+      .main-menu1 ul {
+      gap: 20px;
+      }
+      .header-search1 {
+      max-width: 220px;
+      }
+      .header-logo1 img {
+      max-height: 40px;
+      }
+      .header-links1 ul li a {
+      font-size: 12.5px;
+      }
+      .header-links1 ul {
+      gap: 15px;
+      }
+      }
+      /*  Medium-Large Screens Fix (1201px to 1300px) */
+      @media (min-width: 1201px) and (max-width: 1399px) {
+      .main-menu1 ul {
+      gap: 30px;
+      }
+      .header-search1 {
+      max-width: 250px;
+      }
+      .header-logo1 img {
+      max-height: 55px;
+      }
+      .header-links1 ul li a {
+      font-size: 13px;
+      }
+      }
+      /*  Large-Medium Screens Fix (1301px to 1470px) */
+      @media (min-width: 1400px) and (max-width: 1870px) {
+      .main-menu1 ul {
+      gap: 65px;
+      }
+      .header-search1 {
+      max-width: 300px;
+      }
+      }
+      /* General Reset for Box-Sizing */
+      * {
+      box-sizing: border-box;
+      }
+      .latest-news {
+      width: 100%;
+      background-color: black;
+      color: #fff;
+      padding: 10px 0; /* No left/right padding here */
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      }
+      .news-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 15px; /* Default padding for mobile/tablet */
+      box-sizing: border-box;
+      }
+      .news-item {
+      font-size: 15px;
+      white-space: normal;
+      line-height: 1.5;
+      text-align: left;
+      width: 100%;
+      }
+      /* Tablet styles */
+      @media (min-width: 768px) {
+      .news-item {
+      font-size: 16px;
+      }
+      }
+      /* Desktop & Laptop */
+      @media (min-width: 1024px) {
+      .news-container {
+      padding-left: 40px;     /* Add 40px left space */
+      padding-right: 40px;    /* Optional: balance right side */
+      }
+      .news-item {
+      font-size: 18px;
+      }
+      }
+      .news-item a {
+      color: #00BFFF;
+      text-decoration: underline;
+      font-weight: 500;
+      }
+      @keyframes scroll-news {
+      0% {
+      transform: translateX(100%);
+      }
+      100% {
+      transform: translateX(-100%);
+      }
+      }
+      /* Prevent Horizontal Overflow */
+      body, html {
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+      }
+      /*you tube video section*/
+      /* Section background and wrapper */
+      .youtube-section-wrapper {
+      background-color: #fef5f0;
+      width: 100%;
+      padding-top: 2px;    
+      }
+      /* Section title */
+      .youtube-card-section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: black;
+      padding: 10px;
+      border-bottom: 3px solid #ff4300;
+      margin: 45px 45px 0 45px;
+      }
+      .youtube-card-section-title h3 {
+      margin: 0;
+      }
+      /* Cards container */
+      .youtube-card-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      /*  border-bottom: 3px solid#ff4300;*/
+      margin: 0 auto;
+      max-width: 2000px;
+      padding: 0 10px;
+      margin-top: 20px; /* Added margin-top to create space between the title and cards */
+      }
+      /* Individual card */
+      .youtube-card {
+      border-radius: 6px;
+      cursor: pointer;
+      width: 330px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      }
+      .image-wrapper {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      }
+      .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      }
+      .play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: white;
+      background-color: red;
+      border-radius: 50%;
+      padding: 10px;
+      opacity: 0.8;
+      pointer-events: none;
+      z-index: 2;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      .youtube-card-content {
+      padding: 10px;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.7rem;
+      color: black;
+      margin-bottom: 15px;
+      font-weight: 600;
+      }
+      .youtube-card-content p {
+      font-size: 1rem;
+      color: black;
+      line-height: 1.6;
+      }
+      /* Modal */
+      .youtube-card-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      }
+      .youtube-card-modal-content {
+      position: relative;
+      background: transparent;
+      border-radius: 9px;
+      padding: 0;
+      width: 80%;
+      max-width: 800px;
+      }
+      .youtube-card-modal-content iframe {
+      width: 100%;
+      height: 450px;
+      border: none !important;
+      border-radius: 9px;
+      display: block;
+      outline: none;
+      }
+      .youtube-card-modal-content .close {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #333;
+      background: #eee;
+      border: none;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s;
+      z-index: 1000;
+      }
+      .youtube-card-modal-content .close:hover {
+      background: #ccc;
+      }
+      /* Responsive styles */
+      @media (max-width: 768px) {
+      .youtube-card {
+      width: 100%;
+      }
+      .youtube-card-container {
+      flex-direction: column;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.4rem;
+      }
+      .youtube-card-modal-content iframe {
+      height: 300px;
+      }
+      }
+      @media (max-width: 768px) {
+      .youtube-card {
+      width: 100%;
+      }
+      .youtube-card-container {
+      flex-direction: column;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.4rem;
+      }
+      .youtube-card-modal-content iframe {
+      height: 300px;
+      }
+      }
+      /*Tour Snapshot*/
+      /* Main container */
+      .trek-grid-container {
+      width: 80%;                 /* Default width for desktop/laptop */
+      max-width: 100%;            /* Ensure it doesn't exceed the screen width */
+      /*  background: #f5f5f5;*/
+      border-bottom: 3px solid #ff4300;
+      padding: 2px;
+      margin: 0 auto 35px auto;   /* Default margin for desktop */
+      display: grid;
+      grid-template-columns: repeat(6, 1fr); /* Default 4 columns for desktop */
+      box-sizing: border-box;     /* Ensure padding doesn't affect width */
+      overflow: hidden;           /* Prevent overflow in case of small screen */
+      /*      margin-top: 10px;*/
+      margin-bottom: 20px;
+      }
+      /* Grid item styling */
+      .trek-item {
+      padding: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      }
+      .trek-item i {
+      font-size: 22px;
+      color: #ff4300;
+      margin-top: 3px;
+      }
+      .trek-text {
+      display: flex;
+      flex-direction: column;
+      }
+      .trek-label {
+      font-size: 14px;
+      color: #000000;
+      text-transform: uppercase;
+      font-weight: 780;
+      }
+      .trek-value {
+      font-size: 14px;
+      color: #222;
+      font-weight: 500;
+      line-height: 1.3;
+      }
+      /* ✅ Responsive Behavior */
+      /* Tablets and devices smaller than 1024px */
+      @media (max-width: 1024px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 10px; /* Less padding for smaller screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      }
+      /* Devices smaller than 768px (small tablets and large phones) */
+      @media (max-width: 768px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller devices */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 10px; /* Less padding for smaller screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      }
+      /* Mobile devices */
+      @media (max-width: 480px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 5px; /* Further reduce padding on small screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      .trek-item {
+      gap: 8px; /* Reduce gap for better fit */
+      }
+      }
+      /*booking card*/
+      /* General Styles */
+      .trek-card1 {
+      max-width: 365px;
+      background: #f5f5f5;
+      border-radius: 3px;
+      margin: auto;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+      border: 5px solid #ff4300;
+      }
+      .trek-card1 h2 {
+      font-size: 20px;
+      margin: 0 0 15px;
+      color: black;
+      }
+      .fee1 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #ff4300;
+      }
+      .breakdown1 p {
+      margin: 2px 0;
+      color: black;
+      font-size: 14px;
+      font-weight: 600;
+      }
+      .breakdown1 p {
+      margin: 0 0 4px 0; /* bottom me 4px ka gap */
+      }
+      .breakdown1 p:last-child {
+      margin-bottom: 0; /* last 
+      <p>
+         ke neeche bilkul bhi gap nahi */
+         }
+         .optional1 {
+         margin-top: 15px;
+         /*  padding-top: 10px;*/
+         border-top: 1px dashed #ccc;
+         }
+         .optional1 p {
+         font-size: 14px;
+         font-style: italic;
+         color: black;
+         margin: 4px 0;
+         }
+         .links1 {
+         margin-top: 5px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         /*  gap: 10px 20px;*/
+         }
+         .links1 a {
+         color: #1976d2;
+         text-decoration: none;
+         font-size: 14px;
+         transition: 0.2s;
+         }
+         .links1 a:hover {
+         text-decoration: underline;
+         }
+         .dropdown1 {
+         margin-top: 25px;
+         position: relative;
+         }
+         .dropdown1 label {
+         display: block;
+         font-weight: bold;
+         margin-bottom: 8px;
+         color: black;
+         }
+         /* Color classes for different status */
+         .available {
+         color: #27ae60; /* Green for available */
+         }
+         .full {
+         color: #e74c3c; /* Red for full */
+         }
+         .left {
+         color: #f39c12; /* Yellow for seats left */
+         }
+         .dropdown1 select {
+         width: 100%;
+         padding: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         font-size: 13px;
+         background-color: #fafafa;
+         cursor: pointer;
+         appearance: none;
+         box-sizing: border-box; /* Important for width calculations */
+         height: 38px;
+         }
+         /* Focus state for better visibility */
+         .dropdown1 select:focus {
+         border-color: #1976d2;
+         box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+         }
+         /* Mobile Specific Styles */
+         @media (max-width: 768px) {
+         .trek-card1 {
+         padding: 20px 15px;
+         }
+         .dropdown1 select {
+         padding: 14px; /* Adjust padding for better visibility */
+         font-size: 16px; /* Make font size a little bigger for mobile */
+         }
+         .dropdown1 select option {
+         font-size: 16px; /* Better font size for options */
+         }
+         /* Ensure the dropdown doesn't overlap */
+         .dropdown1 {
+         margin-top: 20px;
+         }
+         /* Ensuring select options are not hidden */
+         .dropdown1 select {
+         min-width: 100%; /* Make sure it takes up full width */
+         }
+         }
+         /*read more*/
+         .read-more-button {
+         padding: 3px 10px;
+         background-color: #264D32;
+         color: white;
+         border: none;
+         border-radius: 2px;
+         cursor: pointer;
+         text-align: center;
+         font-size: 14px;
+         font-weight: 800px;
+         }
+         .read-more-button:hover {
+         background-color: black;
+         }
+         /*  dropdown-deyal itinerary*/
+         .detaildropdown {
+         border: 1px solid #ccc;
+         border-radius: 2px;
+         margin-bottom: 7px;
+         overflow: hidden;
+         }
+         .detaildropdown-btn {
+         /*      background-color: #f4f4f4;*/
+         background-color: #FFF;
+         padding: 15px;
+         font-size: 16px;
+         font-weight: bold;
+         border: none;
+         width: 100%;
+         text-align: left;
+         cursor: pointer;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         }
+         .detaildropdown-btn .icon {
+         font-size: 16px;
+         transition: transform 0.3s ease;
+         }
+         .detaildropdown-btn.active .icon {
+         transform: rotate(180deg);
+         }
+         .detaildropdown-content {
+         display: none;
+         padding: 15px;
+         background: #fff;
+         border-top: 1px solid #ccc;
+         }
+         .detaildropdown-content h3,h4{
+         font-size: 18px;
+         }
+         .detailtabs {
+         display: flex;
+         overflow-x: auto;
+         white-space: nowrap;
+         background-color: #f4f4f4;
+         margin-bottom: 10px;
+         -webkit-overflow-scrolling: touch;
+         scrollbar-width: none;
+         }
+         .detailtabs::-webkit-scrollbar {
+         display: none;
+         }
+         .detailtab {
+         flex: 0 0 auto;
+         padding: 10px 15px;
+         cursor: pointer;
+         border-right: 1px solid #ccc;
+         font-weight: bold;
+         text-align: center;
+         }
+         .detailtab:last-child {
+         border-right: none;
+         }
+         .detailtab.active {
+         background-color: #ddd;
+         border-bottom: 3px solid red;
+         }
+         .detailtab-content {
+         display: none;
+         }
+         .detailtab-content.active {
+         font-size: 15px;
+         display: block;
+         }
+         img {
+         max-width: 100%;
+         height: auto;
+         /*      margin: 10px 0;*/
+         }
+         @media (max-width: 768px) {
+         .detailtab {
+         font-size: 14px;
+         padding: 10px 12px;
+         }
+         }
+         .faq-item {
+         margin-bottom: 8px;
+         }
+         /*faq-sub*/
+         .detailfaq-item {
+         max-width: 700px;
+         margin: 0 auto 10px;
+         }
+         .detailfaq-question {
+         background: none;
+         border: none;
+         font-weight: bold;
+         font-size: 16px;
+         cursor: pointer;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 0;
+         border-bottom: 1px solid red;
+         transition: all 0.3s ease;
+         padding: 12px 16px;
+         text-align: left;
+         }
+         .question-text-wrapper {
+         display: flex;
+         flex-direction: column;
+         } 
+         .question-subheading {
+         font-size: 0.85em;
+         color: #777;
+         font-style: italic;
+         margin-top: 4px;
+         }
+         .detailfaq-icon {
+         margin-left: auto;
+         font-size: 20px;
+         }
+         .detailfaq-question.active .detailfaq-icon {
+         transform: rotate(180deg);
+         }
+         .detailfaq-answer {
+         display: none;
+         padding: 10px 0;
+         font-size: 14px;
+         }
+         .question-text {
+         font-weight: bold;
+         font-size: 1.3em;
+         color: #000000;
+         }
+         .question-subheading {
+         font-size: 0.85em;
+         color: #777;
+         font-style: italic;
+         margin-top: 4px;
+         }
+         /*location-map*/
+         .location-map-section {
+         padding: 0px 0 15px;
+         text-align: center;
+         }
+         .map-wrapper {
+         max-width: 1000px; /* Adjust this based on image width or design */
+         margin: 0 auto; /* Centers the wrapper */
+         text-align: left; /* Align heading to left inside the wrapper */
+         }
+         .map-wrapper .page-title {
+         margin-bottom: 20px;
+         border-bottom: 3px solid #ff4300;
+         padding-bottom: 10px;
+         font-size: 28px;
+         }
+         /*galley section*/
+         .seasons-gallery-section {
+         width: 100%;
+         padding: 10px 74px 5px 94px; /* top, right, bottom, left */
+         }
+         .detailgallery-tabs {
+         margin-bottom: 20px;
+         text-align: left;
+         }
+         .detailgallery-tab-button {
+         padding: 5px 15px;
+         margin: 0 1px;
+         background-color: #ddd;
+         border: none;
+         cursor: pointer;
+         border-radius: 2px;
+         }
+         .detailgallery-tab-button.active {
+         background-color: #ff4300;
+         color: white;
+         }
+         .detailgallery-gallery {
+         display: none;
+         grid-template-columns: repeat(4, 1fr);
+         gap: 10px;
+         }
+         .detailgallery-gallery.active {
+         display: grid;
+         }
+         .image-card {
+         height: 250px;          /* Sab cards ka fixed height */
+         overflow: hidden;
+         border-radius: 5px;
+         }
+         .image-card img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         cursor: pointer;
+         border-radius: 5px;
+         transition: transform 0.2s ease;
+         }
+         .image-card img:hover {
+         transform: scale(1.03);
+         }
+         .detailgallery-image:hover {
+         transform: scale(1.03);
+         }
+         .detailgallery-lightbox {
+         display: none;
+         position: fixed;
+         top: 0; left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0,0,0,0.9);
+         justify-content: center;
+         align-items: center;
+         z-index: 999;
+         flex-direction: column;
+         }
+         .detailgallery-lightbox img {
+         max-width: 90%;
+         max-height: 80%;
+         margin-bottom: 20px;
+         border-radius: 5px;
+         }
+         .detailgallery-controls {
+         color: white;
+         font-size: 24px;
+         display: flex;
+         justify-content: center;
+         gap: 50px;
+         cursor: pointer;
+         }
+         .detailgallery-close-btn {
+         position: absolute;
+         top: 20px;
+         right: 30px;
+         font-size: 30px;
+         color: white;
+         cursor: pointer;
+         }
+         .detailgallery-caption {
+         color: white;
+         text-align: center;
+         max-width: 90%;
+         margin: 10px auto 20px;
+         font-size: 16px;
+         }
+         .pagination  {
+         padding-top: 15px; 
+         text-align: center;
+         }
+         .pagination button {
+         margin: 0 5px;
+         padding: 8px 12px;
+         border: none;
+         background-color: #ddd;
+         border-radius: 4px;
+         cursor: pointer;
+         }
+         .pagination button.active {
+         background-color: #ff4300;
+         color: white;
+         }
+         /* Responsive Breakpoints */
+         @media (max-width: 768px) {
+         .detailgallery-gallery {
+         grid-template-columns: repeat(2, 1fr);
+         }
+         }
+         @media (max-width: 480px) {
+         .seasons-gallery-section {
+         padding: 20px 15px 10px 15px;
+         }
+         .detailgallery-gallery {
+         grid-template-columns: 1fr;
+         }
+         .detailgallery-controls {
+         flex-direction: column;
+         gap: 15px;
+         }
+         }
+   </style>
+   <script>
+       
+       function liveSearch(str) {
+    if (str.length == 0) {
+        document.getElementById("livesearch").innerHTML = "";
+        document.getElementById("livesearch").style.display = "none";
+        return;
+    }
+    fetch("/search.php?q=" + encodeURIComponent(str))
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("livesearch").innerHTML = data;
+            document.getElementById("livesearch").style.display = "block";
+        });
+}
+
+      // JS
+    //   function liveSearch(query) {
+    //   const output = document.getElementById("livesearch");
+      
+    //   if (query.length === 0) {
+    //   output.innerHTML = "";
+    //   output.style.display = "none";
+    //   return;
+    //   }
+      
+    //   fetch("search.php?q=" + encodeURIComponent(query))
+    //   .then(response => response.text())
+    //   .then(data => {
+    //     output.innerHTML = data;
+    //     output.style.display = "block";
+    //   })
+    //   .catch(err => {
+    //     console.error("Search error:", err);
+    //     output.innerHTML = "<div style='color:red;'>Error loading results</div>";
+    //     output.style.display = "block";
+    //   });
+    //   }
+      
+   </script>
+   <script>
+      document.getElementById("mobileSearchInput").addEventListener("keyup", function () {
+        const query = this.value;
+        const output = document.getElementById("mobileSearchResults");
+      
+        if (query.length === 0) {
+          output.innerHTML = "";
+          output.style.display = "none";
+          return;
+        }
+      
+        fetch("search.php?q=" + encodeURIComponent(query))
+          .then(response => response.text())
+          .then(data => {
+            output.innerHTML = data;
+            output.style.display = "block";
+          })
+          .catch(err => {
+            output.innerHTML = "<div style='color:red;'>Error loading results</div>";
+            output.style.display = "block";
+          });
+      });
+   </script>
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trek With Himalaayn Hikers</title>
+    <meta name="author" content="Himalayan Hikers">
+    <meta name="description" content="Join us at Himalayan Hikers for an unforgettable trekking experience in the Himalayas.">
+    <meta name="keywords" content="Himalayan trekking, adventure trips, trekking tours, nature trails, Himalayan Hikers, trekking experiences">
+    <meta name="robots" content="INDEX,FOLLOW">
+    </head>
+      <body>
+
+<style>
+
+/* General Reset for Box-Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+
+.hero-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-content {
+  text-align: left;
+  color: #fff;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-title {
+  font-family: Lora;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63px;
+    font-size: 64px;
+    color: #fff;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.hero-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+   font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    -shadow: 0 0 1px transparent;
+    text-decoration: underline;
+}
+
+.hero-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #ff4300;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+@keyframes scroll-news {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive Styles */
+/* For Tablets and Medium Screens (between 768px and 1024px) */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: auto; /* Set height to auto for flexibility */
+    min-height: 350px; /* Slightly reduce the height for medium screens */
+    padding-left: 50px; /* Adjust left padding */
+    padding-right: 50px; /* Ensure balanced padding on both sides */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content at the bottom */
+  }
+
+  .hero-title {
+    font-size: 30px; /* Adjust title size */
+  }
+
+  .hero-subtitle {
+    font-size: 20px; /* Adjust subtitle size */
+  }
+
+  .hero-description {
+    font-size: 16px; /* Adjust description size */
+  }
+
+  .hero-button {
+    padding: 10px 25px; /* Adjust button padding */
+    font-size: 14px; /* Adjust button font size */
+  }
+}
+
+/* For Tablets and Small Screens (between 600px and 768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto; /* Flexible height */
+    min-height: 300px; /* Reduce hero section height */
+    padding-left: 20px; /* Reduce padding */
+    padding-right: 20px; /* Reduce padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content at the bottom */
+  }
+
+  .hero-title {
+    font-size: 28px; /* Adjust title size */
+  }
+
+  .hero-subtitle {
+    font-size: 18px; /* Adjust subtitle size */
+  }
+
+  .hero-description {
+    font-size: 15px; /* Adjust description size */
+  }
+
+  .hero-button {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 14px; /* Adjust button font size */
+  }
+}
+
+/* For Mobile Screens (below 600px) */
+@media (max-width: 600px) {
+  .hero-section {
+    height: auto; /* Flexible height */
+    min-height: 250px; /* Reduce hero section height */
+    padding-left: 15px; /* Reduce padding */
+    padding-right: 15px; /* Add right padding to avoid overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content at the bottom */
+  }
+
+  .hero-title {
+    font-size: 24px; /* Adjust title size */
+  }
+
+  .hero-subtitle {
+    font-size: 16px; /* Adjust subtitle size */
+  }
+
+  .hero-description {
+    font-size: 14px; /* Adjust description size */
+  }
+
+  .hero-button {
+    padding: 8px 18px; /* Reduce button padding */
+    font-size: 12px; /* Reduce button font size */
+  }
+}
+  .card-container.trk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+  }
+
+  /* Tablet: 2 columns */
+  @media (max-width: 1024px) {
+    .card-container.trk {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Mobile: 1 column */
+  @media (max-width: 600px) {
+    .card-container.trk {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card.trk {
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    height: 100%;
+    min-height: auto; /* Remove fixed height */
+  }
+
+  .card.trk:hover {
+    transform: translateY(-5px);
+  }
+
+  .card.trk img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .up-card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .up-days {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+
+  .up-rating {
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .up-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.3em;
+  }
+
+  .up-places {
+    background: #fff7e6;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .up-price-box {
+    margin-bottom: 15px;
+  }
+
+  .up-old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+  }
+
+  .up-discount {
+    color: green;
+    font-size: 13px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+
+  .up-new-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4300;
+    margin-top: 5px;
+  }
+
+  .up-card-footer {
+    padding: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .up-call-btn {
+    border: 1px solid #ff4300;
+    background: transparent;
+    color: #ff4300;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .up-call-btn:hover {
+    background: #ff4300;
+    color: #fff;
+  }
+
+  .up-callback-btn {
+    flex: 1;
+    border: none;
+    background: #4e7327;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .up-callback-btn:hover {
+    background: #ff4300;
+    color: #000;
+  }
+.titlechose {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+    font-size: 35px;
+  margin-bottom: 30px;
+  padding: 30px 50px 10px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* Required for pseudo-element */
+  /* Remove border-bottom from here */
+}
+
+.titlechose::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  height: 3px;
+  width: calc(100% - 100px); /* 50px padding on both sides */
+  background-color: #ff4300;
+}
+
+.container.chose {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: nowrap;         /* single row */
+  width: 100%;
+  max-width: 1680px;         /* 5 cards * 320px + 4 gaps * 20px = 1680px */
+  overflow-x: hidden;        /* scroll avoid karo */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.card.chose {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px 20px;
+  width: 250px;               /* fixed width */
+  flex-shrink: 0;             /* no shrinking */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#color{
+  color: #ff4300;
+}
+.icons {
+  font-size: 50px;
+  color: #95c463;
+  margin-bottom: 12px;
+}
+
+.card.chose h3 {
+  margin: 0 0 10px;
+  color: black;
+  font-size: 18px;
+}
+
+.card.chose p {
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+/* Responsive: Mobile stack cards vertically */
+@media (max-width: 1024px) {
+  .container.chose {
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow-x: visible;
+    justify-content: center;
+  }
+  .card.chose {
+    width: 90%; /* mobile-friendly width */
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+}
+</style>
+<!--============================== Hero Area ==============================-->
+
+<!-- Hero Section -->
+<div class="breadcumb-wrapper" style="background-color:#4e7327; padding: 40px 0;">
+   <div class="container" style="text-align: center; color: white;">
+      <div class="breadcumb-content">
+
+<!-- Display the heading -->
+<h1 class="breadcumb-title" style="margin-bottom: 20px;">January</h1>
+
+      </div>
+   </div>
+</div>
+<section class="position-relative overflow-hidden space ">
+   <div class="container" style="padding-top:25px;">
+      <div class="card-container trk" id="cardContainer">
+ 
+    <div class="card trk">
+           <a href="kedarkantha-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c2a1ff57b20.webp" 
+             alt="Trekkers pose triumphantly at the summit with Indian flags, celebrating their successful journey">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">5 Days</span>
+            </p>
+            <p class="up-title">Kedarkantha Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Kedarkantha+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="kedarkantha-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="dayara-bugyal-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c56aaba0c42.webp" 
+             alt="Dayara Bugyal Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Dayara Bugyal Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Dayara+Bugyal+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="dayara-bugyal-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="benog-tibba-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c73ec582b89.webp" 
+             alt="Benog Tibba Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">2 Days</span>
+            </p>
+            <p class="up-title">Benog Tibba Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Benog+Tibba+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="benog-tibba-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="chopta-tungnath-chandrashila-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7466e0f411.webp" 
+             alt="Chopta Chandrashila Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">3 Days</span>
+            </p>
+            <p class="up-title">Chopta Chandrashila Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Chopta+Chandrashila+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="chopta-tungnath-chandrashila-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="harsil-valley-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7abb6dbadf.webp" 
+             alt="Harsil Valley Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Harsil Valley Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Harsil+Valley+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="harsil-valley-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="gulabi-kantha-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7b591528b9.webp" 
+             alt="Gulabi Kantha Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">5 Days</span>
+            </p>
+            <p class="up-title">Gulabi Kantha Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Gulabi+Kantha+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="gulabi-kantha-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="gorson-bugyal-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7bad028032.webp" 
+             alt="Gorson Bugyal Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Gorson Bugyal Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Gorson+Bugyal+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="gorson-bugyal-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="buda-kedar-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7bc19b08dc.webp" 
+             alt="Buda Kedar Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">6 Days</span>
+            </p>
+            <p class="up-title">Buda Kedar Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Buda+Kedar+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="buda-kedar-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="kush-kalyan-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7ccda23e0b.webp" 
+             alt="Kush Kalyan Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">5 days</span>
+            </p>
+            <p class="up-title">Kush Kalyan Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Kush+Kalyan+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="kush-kalyan-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="deoban-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7ddc02eb25.webp" 
+             alt="Deoban Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">3 Days</span>
+            </p>
+            <p class="up-title">Deoban Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Deoban+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="deoban-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="panwali-kantha-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7deec01680.webp" 
+             alt="Panwali Kantha Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">5 days</span>
+            </p>
+            <p class="up-title">Panwali Kantha Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Panwali+Kantha+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="panwali-kantha-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="nachiketa-tal-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7e83fbf2bd.webp" 
+             alt="Nachiketa Tal Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">3 Days</span>
+            </p>
+            <p class="up-title">Nachiketa Tal Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Nachiketa+Tal+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="nachiketa-tal-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="mukta-top-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7ecfc8b6cc.webp" 
+             alt="Mukta Top Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">6 Days</span>
+            </p>
+            <p class="up-title">Mukta Top Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Mukta+Top+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mukta-top-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="nag-tibba-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c7fbd180b6f.webp" 
+             alt="Nag Tibba Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">2 Days</span>
+            </p>
+            <p class="up-title">Nag Tibba Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Nag+Tibba+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="nag-tibba-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="dodital-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c800aaf1dac.webp" 
+             alt="Dodital Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">6 Days</span>
+            </p>
+            <p class="up-title">Dodital Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Dodital+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="dodital-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="pangarchulla-peak-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c80475c8a4f.webp" 
+             alt="Pangarchulla Peak Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">6 Days</span>
+            </p>
+            <p class="up-title">Pangarchulla Peak Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Difficult</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Pangarchulla+Peak+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="pangarchulla-peak-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="brahmatal-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c83d55913be.webp" 
+             alt="Brahmatal Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">6 Days</span>
+            </p>
+            <p class="up-title">Brahmatal Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Brahmatal+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="brahmatal-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="chadar-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c91415aaae7.webp" 
+             alt="Chadar Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">8 Days </span>
+            </p>
+            <p class="up-title">Chadar Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Difficult</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Chadar+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="chadar-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="spiti-valley-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c9da65a368f.webp" 
+             alt="Spiti Valley Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount"></span>
+            </p>
+            <p class="up-title">Spiti Valley Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Difficult</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Spiti+Valley+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="spiti-valley-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="sari-pass-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c9df0ab3e22.webp" 
+             alt="Sari Pass Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Sari Pass Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Sari+Pass+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="sari-pass-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="parvati-valley-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c9e00119927.webp" 
+             alt="Parvati Valley Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Parvati Valley Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Parvati+Valley+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="parvati-valley-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="pundrik-lake-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68c9e11fe47aa.webp" 
+             alt="Pundrik Lake Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">2 Days</span>
+            </p>
+            <p class="up-title">Pundrik Lake Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Pundrik+Lake+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="pundrik-lake-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="kuppar-bugyal-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68ca454b756f2.webp" 
+             alt="Kuppar Bugyal Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">3 Days</span>
+            </p>
+            <p class="up-title">Kuppar Bugyal Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Kuppar+Bugyal+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="kuppar-bugyal-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="churdhar-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68ca557cc971f.webp" 
+             alt="Churdhar Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">3 Days</span>
+            </p>
+            <p class="up-title">Churdhar Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Churdhar+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="churdhar-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="kheerganga-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/68ca5c78e6aee.webp" 
+             alt="Kheerganga Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">2 Days</span>
+            </p>
+            <p class="up-title">Kheerganga Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Kheerganga+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="kheerganga-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="kuari-pass-with-pangarchulla-peak-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/691d933395015.jpg" 
+             alt="Kuari Pass with Pangarchulla Peak Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">7 Days</span>
+            </p>
+            <p class="up-title">Kuari Pass with Pangarchulla Peak Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Moderate to Difficult</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Kuari+Pass+with+Pangarchulla+Peak+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="kuari-pass-with-pangarchulla-peak-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="khaliya-top-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/692d51536a9a7.webp" 
+             alt="Khaliya Top Trek">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">4 Days</span>
+            </p>
+            <p class="up-title">Khaliya Top Trek</p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Khaliya+Top+Trek" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="khaliya-top-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+ 
+    <div class="card trk">
+           <a href="prashar-lake-trek">
+        <img src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/trek_images/692d430d347e3.jpg" 
+             alt="Prashar Lake Trek ">
+        <div class="up-card-body">
+            <p class="up-days">Trek Duration
+                <span class="up-discount">2 Days</span>
+            </p>
+            <p class="up-title">Prashar Lake Trek </p>
+            <span class="up-places">
+                <b>Trek Difficulty • </b>
+                <span class="up-discount">Easy to Moderate</span>
+            </span>
+        </div>
+        <div class="up-card-footer">
+            <a href="tel:+91 7505699509" class="up-call-btn" target="blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/+917505699509?text=I%20am%20interested%20Prashar+Lake+Trek+" 
+               class="up-call-btn" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="prashar-lake-trek" class="up-callback-btn">View Trek Detail</a>
+        </div>
+        </a>
+    </div>
+    
+</div>
+
+      <div style="text-align: center; margin-top: 30px;">
+         <button id="loadMoreBtn" style="padding: 10px 20px; font-size: 16px; background: #e67e22; color: #fff; border: none; border-radius: 6px; cursor: pointer;">
+         Load More
+         </button>
+      </div>
+   </div>
+</section>
+<section class="benefits-section">
+   <h1 class="titlechose">Why Choose Us</h1>
+   <div class="container chose">
+      <div class="card chose">
+         <i class="fas fa-child icons" title="Scholarship"></i>
+         <h3>Our Mission</h3>
+         <p>Promote Trekking, Growth of Sustainable Trekking ,Satisfy our clients with best Quality and Services, Safe Treks, Growth of Locals, Work socially</p>
+      </div>
+      <div class="card chose">
+         <i class="fas fa-users icons" id="color"  title="Group Waiver"></i>
+         <h3>Our Team</h3>
+         <p>We are able to deliver wonderful experiences to our clients only because of our dedicated team of hard-working and professional experts..</p>
+      </div>
+      <div class="card chose">
+         <i class="fas fa-hands-helping icons" title="Trek Again Philosophy"></i>
+         <h3>Our Commitments</h3>
+         <p>Promote “Trekking in India ” Worldwide, Provide the Safest Treks, Explore More, Promote Environment,</p>
+      </div>
+      <div class="card chose">
+         <i class="fas fa-mountain icons" id="color" title="Women Friendly Groups"></i>
+         <h3>Our Mountaineering Experience</h3>
+         <p>Trekking ,Satisfy our clients with best Quality and Services.</p>
+      </div>
+      <div class="card chose">
+         <i class="fa-solid fa-user-helmet-safety icons" title="Expert Guidance"></i>
+         <h3>Get Expert Guidance Even Before You Start</h3>
+         <p>Personalised support from Experience Coordinators, from registration to departure.</p>
+      </div>
+   </div>
+</section>
+
+<style>
+   /* Global Styles */
+   *,
+   *::before,
+   *::after {
+   box-sizing: border-box;
+   }
+   body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   overflow-x: hidden;
+   }
+   html {
+   width: 100%;
+   }
+   /* Header Section Above Cards */
+   .top-section-cat {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+   padding: 30px 50px 10px 50px;
+   width: 100%;
+   box-sizing: border-box;
+   position: relative; /* Required for pseudo-element */
+   /* Remove border-bottom from here */
+   }
+   .top-section-cat::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50px;
+   height: 2px;
+   width: calc(100% - 100px); /* 50px padding on both sides */
+   background-color: #ff4300;
+   }
+   .top-left-cat {
+   max-width: 800px;
+   }
+   .top-left-cat h2 {
+   font-size: 36px;
+   margin: 0 0 10px;
+   }
+   .top-left-cat p {
+   font-size: 15px;
+   color: black;
+   margin: 0;
+   }
+   /* Card Grid */
+   /* Card Grid */
+   .card-container-cat {
+   display: flex;
+   flex-wrap: nowrap; /* Change this to prevent wrapping */
+   gap: 10px;
+   justify-content: flex-start; /* Align cards to the left */
+   width: 100%;
+   padding: 0 20px;
+   box-sizing: border-box;
+   align-items: stretch;
+   border-bottom: 2px solid #ff4300;
+   margin-bottom: 62px;
+   padding-bottom: 50px;
+   overflow-x: auto; /* Add horizontal scrolling */
+   }
+   .card-cat {
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   padding: 24px 10px;
+   box-sizing: border-box;
+   flex-shrink: 0; /* Pevents cards from shrinking */
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   height: 340px; /* Fixed height */
+   overflow: hidden;
+   }
+   .card-cat:hover {
+   transform: none; /*  No hover animation */
+   }
+   .card-cat h3 {
+   font-size: 13px;
+   color: black;
+   margin-bottom: 16px;
+   text-align: left;
+   border-bottom: 2px solid #ff4300;;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   }
+   .card-cat ol {
+   margin: 0;
+   padding-left: 0;
+   list-style-type: none;
+   flex-grow: 1;
+   overflow-y: auto; /*  Scroll if list is long */
+   }
+   .card-cat li {
+   font-size: 14px;
+   margin-bottom: 8px;
+   color: #333;
+   }
+   .card-cat li a {
+   text-decoration: none;
+   font-weight: 550;
+   color: #333;
+   transition: color 0.3s ease;
+   font-size: 13px;
+   }
+   .card-cat li a:hover {
+   color: #4CAF50;
+   }
+   /* Scrollbar styling (optional for better UX) */
+   .card-cat ol::-webkit-scrollbar {
+   width: 6px;
+   }
+   .card-cat li i {
+   color: #ff4300; /* Color change on icoon (light orange) */
+   }
+   .card-cat h2 i {
+   color: #ff4300; /* Color change on icon (light orange) */
+   }
+   .card-cat ol::-webkit-scrollbar-thumb {
+   background-color: #ccc;
+   border-radius: 4px;
+   }
+   /* Responsive Behavior */
+   /* Tablet: 3 cards per row */
+   @media (max-width: 1200px) {
+   .card-cat {
+   flex: 0 0 calc(33.33% - 20px);
+   }
+   }
+   /* Mobile: 2 cards per row */
+   @media (max-width: 768px) {
+   .card-cat {
+   flex: 0 0 calc(50% - 20px);
+   height: 300px; /* Adjust height if needed */
+   }
+   }
+   /* Small screen: still 2 cards but smaller height */
+   @media (max-width: 500px) {
+   .card-container-cat {
+   justify-content: space-between;
+   }
+   .card-cat {
+   flex: 0 0 calc(50% - 20px);
+   margin-bottom: 20px;
+   height: 260px;
+   }
+   .top-section-cat {
+   flex-direction: column;
+   align-items: flex-start;
+   }
+   .top-right-cat {
+   margin-top: 20px;
+   }
+   }
+   .footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   width: 100%;
+   padding: 0 20px;
+   box-sizing: border-box;
+   align-items: stretch;
+   }
+   .month-container {
+   display: flex;
+   gap: 50px; /* dono columns ke beech space */
+   }
+   .month-container ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   }
+   .month-container li {
+   margin: 5px 0;
+   }
+   .month-container a {
+   text-decoration: none;
+   color: #000;
+   }
+</style>
+<!-- Top Text Section -->
+<div class="top-section-cat">
+   <div class="top-left-cat">
+      <h2>Treks by Categories</h2>
+      <p>
+         This category organizes trekking routes into different classifications to help trekkers find trails that suit their preferences, skills, and requirements. Whether you’re looking for a trek based on the season, duration, difficulty, region, or your trekking experience, this approach makes it easier to choose the perfect adventure for your needs.
+      </p>
+   </div>
+</div>
+<div class="card-container-cat">
+   <!-- Treks by Season -->
+   <div class="card-cat">
+      <h3>🍃 Treks by Season</h3>
+      <ol>
+                  <li>
+            <a href="https://himalayanhikers.in/autumn-treks">
+            Autumn            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/monsoon-treks">
+            Monsoon            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/spring-treks">
+            Spring            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/summer-treks">
+            Summer            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/winter-treks">
+            Winter            </a>
+         </li>
+               </ol>
+   </div>
+   <!-- Static: Treks by Month -->
+   <div class="card-cat">
+      <h3>📅 Treks by Month</h3>
+      <div class="month-container">
+         <ul class="left">
+                        <li>
+               <a href="https://himalayanhikers.in/january">
+               January               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/february">
+               February               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/march">
+               March               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/april">
+               April               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/may">
+               May               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/june">
+               June               </a>
+            </li>
+                     </ul>
+         <ul class="right">
+                        <li>
+               <a href="https://himalayanhikers.in/july">
+               July               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/august">
+               August               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/september">
+               September               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/october">
+               October               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/november">
+               November               </a>
+            </li>
+                        <li>
+               <a href="https://himalayanhikers.in/december">
+               December               </a>
+            </li>
+                     </ul>
+      </div>
+   </div>
+   <!-- Treks by Duration -->
+   <div class="card-cat">
+      <h3>⏳ Treks by Duration</h3>
+      <ol>
+                  <li>
+            <a href="https://himalayanhikers.in/2days">
+            2 Days            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/3days">
+            3 Days            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/4days">
+            4 Days            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/5days">
+            5 Days            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/6days">
+            6 Days            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/7days">
+            7+ Days            </a>
+         </li>
+               </ol>
+   </div>
+   <!-- Treks by Difficulty -->
+   <div class="card-cat">
+      <h3>🏔️ Treks by Difficulty</h3>
+     <ol>
+    <li>
+        <a href="https://himalayanhikers.in/easy">
+            Easy        </a>
+    </li>
+    <li>
+        <a href="https://himalayanhikers.in/easy-to-moderate">
+            Easy To Moderate        </a>
+    </li>
+    <li>
+        <a href="https://himalayanhikers.in/moderate">
+            Moderate        </a>
+    </li>
+    <li>
+        <a href="https://himalayanhikers.in/moderate-to-difficult">
+            Moderate To Difficult        </a>
+    </li>
+    <li>
+        <a href="https://himalayanhikers.in/difficult">
+            Difficult        </a>
+    </li>
+    <li>
+        <a href="https://himalayanhikers.in/difficult-to-challenging">
+            Difficult To Challenging        </a>
+    </li>
+</ol>
+
+   </div>
+   <!-- Treks by Region -->
+   <div class="card-cat">
+      <h3>🗺️ Treks by Region</h3>
+      <ol>
+                           <li>
+            <a href="https://himalayanhikers.in/uttarakhand">
+            Uttarakhand            </a>
+         </li>
+                           <li>
+            <a href="https://himalayanhikers.in/sikkim">
+            Sikkim            </a>
+         </li>
+                           <li>
+            <a href="https://himalayanhikers.in/nepal">
+            Nepal            </a>
+         </li>
+                           <li>
+            <a href="https://himalayanhikers.in/ladakh">
+            Ladakh            </a>
+         </li>
+                           <li>
+            <a href="https://himalayanhikers.in/kashmir">
+            Kashmir            </a>
+         </li>
+                           <li>
+            <a href="https://himalayanhikers.in/himachal-pradesh">
+            Himachal Pradesh            </a>
+         </li>
+               </ol>
+   </div>
+   <!-- Treks by Nature -->
+   <div class="card-cat">
+      <h3>🌲 Treks by Nature</h3>
+      <ol>
+                  <li>
+            <a href="https://himalayanhikers.in/lake-treks">
+            Lake Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/glacier-treks">
+            Glacier Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/forest-treks">
+            forest treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/snow-treks">
+            Snow Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/meadow-treks">
+            Meadow Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/summit-treks">
+            Summit Treks            </a>
+         </li>
+               </ol>
+   </div>
+   <!-- Treks by Features -->
+   <div class="card-cat">
+      <h3>🔍 Treks by Features</h3>
+      <ol>
+                  <li>
+            <a href="https://himalayanhikers.in/river-crossings">
+            River Crossings            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/high-altitude">
+            High Altitude            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/bird-watching">
+            Bird Watching            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/family-friendly">
+            Family Friendly            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/solo-treks">
+            Solo Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/photography-treks">
+            Photography Treks            </a>
+         </li>
+                  <li>
+            <a href="https://himalayanhikers.in/star-gazing-treks">
+            Star Gazing Treks            </a>
+         </li>
+               </ol>
+   </div>
+</div>
+<footer class="footer-wrapper footer-layout1">
+   <div class="widget-area">
+      <div class="container-fluid footer-container">
+         <div class="newsletter-area">
+            <div class="newsletter-top">
+               <div class="row gy-4 align-items-center">
+                  <div class="col-lg-5">
+                     <h2 class="newsletter-title text-capitalize mb-0" style="color:#fff; font-size: 55px;">get updated the latest newsletter</h2>
+                  </div>
+                  <div class="col-lg-7">
+                     <form class="newsletter-form" action="submit" method="POST">
+                        <input class="form-control" type="email" name="newsletter_email" placeholder="Enter Email" required>
+                        <button type="submit" name="newsletter_submit" class="th-btn style3">
+                        Subscribe Now <img src="/assets/img/icon/plane.svg" alt="Himalayan Hikers Trekking community">
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row justify-content-between">
+            <div class="col-12 col-md-6 col-xl-3">
+               <div class="widget footer-widget">
+                  <div class="th-widget-about">
+                     <div class="about-logo">
+                        <a href="https://himalayanhikers.in"><img src="/assets/img/logo.webp" alt="Himalayan Hikers"></a>
+                     </div>
+                     <p class="about-text">Himalayan Hikers is the most trusted trekking community in India Since 1990</p>
+                     <div class="th-social">
+                        <a href="https://www.facebook.com/HimalayanHikers.in/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                        </a>
+                        <a href="https://x.com/himalayanhiker" target="_blank">
+                        <img src="/assets/img/social/x.png" alt="Twitter Logo">
+                        </a>
+                        <a href="https://www.linkedin.com/company/himalayanhikers/" target="_blank">
+                        <img src="/assets/img/social/link.png" alt="LinkedIn Logo">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCrPcti4mYSMzwjvmS6nLCXQ" target="_blank">
+                        <img src="/assets/img/social/youtube.png" alt="WhatsApp Logo">
+                        </a>
+                        <a href="https://www.instagram.com/himalayan_hikers/" target="_blank">
+                        <img src="/assets/img/social/instagram.png" alt="Instagram Logo">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+               <div class="widget widget_nav_menu footer-widget">
+                  <h3 class="widget_title">Quick Links</h3>
+                  <div class="menu-all-pages-container">
+                     <ul class="menu">
+                        <li><a href="https://himalayanhikers.in/our-mountaineering-experience">Our Mountaineering Experience</a></li>
+                        <li><a href="https://himalayanhikers.in/document/Medical-Certificate.pdf" target="_blank">Medical Certificate</a></li>
+                        <li><a href="https://himalayanhikers.in/document/declaration-form.pdf" target="_blank">Declaration Form</a></li>
+                        <li><a href="https://himalayanhikers.in/faq">FAQs</a></li>
+                         <li><a href="https://himalayanhikers.in/disclaimer">Disclaimer</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-6">
+               <div class="widget footer-widget">
+                  <h3 class="widget_title">Contact Us</h3>
+                  <div class="th-widget-contact">
+                     <!-- Phone Info -->
+                     <div class="info-box_text">
+                        <i class="fa-solid fa-phone" style="color:#ff4300"></i><!-- Phone icon -->
+                        <div class="details" style="display: flex; gap: 2px; align-items: center; white-space: nowrap; flex-wrap: nowrap;">
+                           <a href="tel:+91-9756197558" class="info-box_link">+91-9756197558</a>
+                           <span class="divider"> | </span>
+                           <a href="tel:+91-7505699509" class="info-box_link">+91-7505699509</a>
+                        </div>
+                     </div>
+                     <!-- Email Info -->  
+                     <div class="info-box_text">
+                        <i class="fas fa-envelope" style="color:#ff4300"></i> <!-- Envelope icon -->
+                        <div class="details">
+                           <p><a href="mailto:himalayanhikers.dun@gmail.com" class="info-box_link">himalayanhikers.dun@gmail.com</a></p>
+                        </div>
+                     </div>
+                     <!-- Location Info -->
+                     <div class="office-wrapper">
+                        <div class="info-box_text">
+                           <div class="details">
+                              <p><strong>Sankari Office</strong><br>
+                                 35GJ+PJ8, Mori-Sankari Rd, Sidri, Sankri, Uttarakhand 249128
+                              </p>
+                           </div>
+                        </div>
+                        <div class="info-box_text">
+                           <div class="details">
+                              <p><strong>Dehradun Office</strong><br>
+                                 Patiyowala, Choila, Chandrabani, near wildlife institute, ISBT, Dehradun, Uttarakhand 248007
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+               <div class="info-box_text">
+    <div class="details">
+        <div class="content-wrapper pp">
+            <div class="imageii">
+                <img src="img/youtube/24_7.ico" alt="Call Icon">
+            </div>
+            <div class="text ptt">
+                <strong>Call Our Mountain Experts!</strong><br>
+                <a href="tel:+91-8218117469" class="info-box_link">+91-8218117469</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+
+.pp {
+    display: flex;
+    align-items: center; /* vertically center */
+    gap: 10px; /* space between image and text */
+}
+
+.imageii img {
+    width: 80px; /* adjust size */
+    height: 80px;
+}
+
+.ptt {
+    flex: 1; /* take remaining space */
+}
+</style>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+  
+   <div class="copyright-wrap" data-bg-src="/assets/img/bg/bg.png">
+      <div class="container">
+         <div class="row justify-content-between align-items-center">
+            <!-- Left side copyright -->
+            <div class="col-12 col-md-4 text-center text-md-start mb-2 mb-md-0">
+               <p class="copyright-text">
+                  Copyright @ 1990-2025 <a href="home-travel">Himalayan Hikers</a>. 
+                  All Rights Reserved
+               </p>
+            </div>
+            <!-- Center policy links -->
+            <div class="col-12 col-md-4 text-center mb-2 mb-md-0">
+               <ul class="footer-links">
+                  <li><a href="https://himalayanhikers.in/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="https://himalayanhikers.in/terms-of-service">Terms of Service</a></li>
+                  <li><a href="https://himalayanhikers.in/cancellation-policy">Cancellation Policy</a></li>
+               </ul>
+            </div>
+            <!-- Right side cards -->
+            <div class="col-12 col-md-4 text-center text-md-end">
+               <div class="footer-card">
+                  <span class="title" style="color: black;">We Accept</span>
+                  <img src="/assets/img/shape/cards.png" alt="Himalayan Hikers">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+<style>
+   .footer-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;   /* mobile me neeche aane ke liye */
+   gap: 15px;
+   justify-content: center;
+   }
+   .footer-links li {
+   display: inline-block;
+   }
+   .footer-links a {
+   color: #000;
+   text-decoration: none;
+   font-size: 14px;
+   }
+   .footer-links a:hover {
+   text-decoration: underline;
+   }
+   .office-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 10px;
+   }
+   .office-wrapper .info-box_text {
+   display: flex;
+   align-items: flex-start;
+   gap: 10px;
+   flex: 1 1 45%;  /* dono side me evenly */
+   min-width: 280px;
+   }
+   .office-wrapper .details p {
+   margin: 0;
+   line-height: 1.6;
+   }
+   /* Mobile ke liye */
+   @media (max-width: 768px) {
+   .office-wrapper {
+   flex-direction: column; /* neeche neeche aa jayenge */
+   }
+   .office-box {
+   flex: 1 1 100%;
+   }
+   }
+</style>
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+     const searchBtn = document.querySelector(".search-btn");
+     const searchBar = document.getElementById("mobileSearch");
+   
+     searchBtn.addEventListener("click", function() {
+       // toggle show/hide
+       if (searchBar.style.display === "block") {
+         searchBar.style.display = "none";
+       } else {
+         searchBar.style.display = "block";
+       }
+     });
+   });
+</script>
+
+<script>
+  const cards = document.querySelectorAll('.card.trk');
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const cardsToShowInitially = 12;
+
+  if (cards.length <= cardsToShowInitially) {
+    loadMoreBtn.style.display = 'none';
+  } else {
+    cards.forEach((card, index) => {
+      if (index >= cardsToShowInitially) {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  loadMoreBtn.addEventListener('click', () => {
+    cards.forEach(card => {
+      card.style.display = 'flex';
+    });
+    loadMoreBtn.style.display = 'none';
+  });
+</script>
+      <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/main.js"></script>

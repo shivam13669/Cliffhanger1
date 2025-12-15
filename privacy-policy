@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Policies</title>
+      
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Favicons - Place favicon.ico in the root directory -->
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/img/faviconspng">
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../assets/img/favicons.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicons.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons.png">
+<link rel="manifest" href="../assets/img/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../assets/img/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--==============================
+   Google Fonts
+   ============================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap" rel="stylesheet">
+<!--==============================
+   All CSS File
+   ============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<!-- Fontawesome Icon -->
+<link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="../assets/css/magnific-popup.min.css">
+<!-- Swiper css -->
+<link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+<!-- Theme Custom CSS -->
+<link rel="stylesheet" href="../assets/css/style.css">
+<!-- Clarity tracking code for https://himalayanhikers.in/ -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G12QPCC6EP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G12QPCC6EP');
+</script>
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "th9jncbuc2");
+</script>
+<style>
+input[type="checkbox"] ~ label:before {
+    background-color: #efefef;
+    border: 2px solid #000;
+}
+</style>
+
+   <!--==============================
+      Mobile Menu
+      ============================== -->
+   <div class="th-menu-wrapper onepage-nav">
+      <div class="th-menu-area text-center">
+         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+         <div class="mobile-logo">
+            <a href="https://himalayanhikers.in"><img src="../assets/img/logo.webp" alt="Himalayan Hikers" style=" width: 85% !important;"></a>
+         </div>
+         <div class="th-mobile-menu">
+            <ul>
+               <li class="menu-item-has-children">
+                  <a class="active" href="https://himalayanhikers.in/">fixed departure treks</a>
+                  <ul class="sub-menu">
+                      <li> <a href="upcoming-autumn-trek"> Upcoming Autumn Trek </a> </li>
+                      <li> <a href="upcoming-monsoon-trek"> Upcoming Monsoon Trek </a> </li>
+                      <li> <a href="upcoming-spring-trek"> Upcoming Spring Trek </a> </li>
+                      <li> <a href="upcoming-summer-trek"> Upcoming Summer Trek </a> </li>
+                      <li> <a href="upcoming-winter-trek"> Upcoming Winter Trek </a> </li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Our Story</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/about-us">About Us</a></li>
+                     <li><a href="https://himalayanhikers.in/our-mission">Our Mission</a></li>
+                     <li><a href="https://himalayanhikers.in/our-commitments">Our Commitment</a></li>
+                     <li><a href="https://himalayanhikers.in/explore-our-leadership">Our Leadership</a></li>
+                     <li><a href="https://himalayanhikers.in/connecting-to-himalayas">Connecting To Himalayas</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Learning Trail Program</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/school-outdoor-learning-program">Scool Program</a></li>
+                     <li><a href="https://himalayanhikers.in/university-outdoor-learning-program">University Program</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Expeditions</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/satopanth-expedition">Satopanth ( 7075 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/kalindi-pass">Kalindi Pass ( 6000 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/black-peak-expedition">Black Peak ( 6387 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/kedar-dome-expedition">Kedar Dome ( 6831 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/bhagirathi-peak-expedition">Bhagirathi Peak 2 ( 6512 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/shivling-peak-expedition">Shivling Peak ( 6543 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/ranglana-peak-expedition">Ranglana Peak ( 5554 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/bandarpunch-expedition">Bandarpunch ( 6316 Meter )</a></li>
+                     <li><a href="https://himalayanhikers.in/mt-kamet-expedition">Mt. Kamet (7756 Meter)</a></li>
+                     <li><a href="https://himalayanhikers.in/nanda-ghunti-peak-expedition">Nanda Ghunti Peak Expedition</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="https://himalayanhikers.in/blog">Articles</a>
+                  <ul class="sub-menu">
+                                          <li class="menu-item-has-children">
+                        <a href="/category/health-altitude-awareness">
+                        Health & Altitude Awareness                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/mountain-sickness-acclimatization">Mountain Sickness & Acclimatization</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/inspiration-philosophy">
+                        Inspiration & Philosophy                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/family-kids-women-trekking">Family, Kids & Women Trekking</a></li>
+                                                      <li><a href="/category/local-info-stay-services">Local Info, Stay & Services</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/news-announcements">
+                        News & Announcements                                                </a>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/pilgrimage-yatra">
+                        Pilgrimage & Yatra                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/spiritual-mythological-treks">Spiritual & Mythological Treks</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/trek-destinations-comparisons">
+                        Trek Destinations & Comparisons                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/best-treks-by-region">Best Treks by Region</a></li>
+                                                      <li><a href="/category/seasonal-time-based-treks">Seasonal & Time-Based Treks</a></li>
+                                                      <li><a href="/category/trek-guides-honest-reviews">Trek Guides & Honest Reviews</a></li>
+                                                      <li><a href="/category/trek-planning-gear-safety">Trek Planning, Gear & Safety</a></li>
+                                                   </ul>
+                                             </li>
+                                          <li class="menu-item-has-children">
+                        <a href="/category/trekking-zones">
+                        Trekking Zones                        <i class="fa fa-caret-down"></i>                        </a>
+                                                <ul class="custom-submenu2">
+                                                      <li><a href="/category/forest-protection">Forest Protection</a></li>
+                                                   </ul>
+                                             </li>
+                                       </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Yatra</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/char-dham-yatra">Chard Dham Yatra</a></li>
+                     <li><a href="https://himalayanhikers.in/do-dham-yatra">Do Dham Yatra</a></li>
+                     <li><a href="https://himalayanhikers.in/kedarnath-trek">Kedarnath Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/badrinath-trek">Badrinath Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/hemkund-sahib-trek">Hemkund Shahib trek</a></li>
+                     <li><a href="https://himalayanhikers.in/panch-kedar-trek">Panch kedar trek</a></li>
+                     <li><a href="https://himalayanhikers.in/tungnath-trek">Tungnath trek</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item-has-children">
+                  <a href="#">Customize Trek</a>
+                  <ul class="sub-menu">
+                     <li><a href="https://himalayanhikers.in/private-trek">Private Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/corporate-trek">Corporate Trek</a></li>
+                     <li><a href="https://himalayanhikers.in/family-trek">Family Trek</a></li>
+                  </ul>
+               </li>
+               <div class="custom-buttons-mb">
+                  <a href="https://himalayanhikers.in/careers" class="custom-btn-mb"><i class="fas fa-briefcase"></i> Careers</a>
+                  <a href="https://himalayanhikers.in/support" class="custom-btn-mb"><i class="fas fa-headset"></i> Support & Assistance</a>
+                  <a href="#" class="custom-btn-mb"><i class="fas fa-shopping-cart"></i> Shop</a>
+                  <a href="https://rent.himalayanhikers.in/" target="blank" class="custom-btn-mb"><i class="fas fa-hiking"></i> Rent Gear</a>
+               </div>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!--==============================
+      Header Area
+      ==============================-->
+   <style>
+      .custom-buttons-mb {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 20px 0;
+      }
+      .custom-btn-mb {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border: 2px solid black;   
+      background-color: transparent; 
+      color: black;  
+      padding: 12px 16px;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+      }
+      .custom-btn-mb:hover {
+      background-color: #4e7325; 
+      color: #fff;
+      }
+      .custom-btn-mb i {
+      font-size: 18px;
+      width: 24px;
+      text-align: center;
+      margin-right: 8px;
+      }
+      
+      
+         .whatsapp a {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 40px;
+  left: 30px;
+  z-index: 40;
+  cursor: pointer;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+  animation: pulse-black 2s infinite;
+  -webkit-animation: pulse-black 2s infinite;
+  -moz-animation: pulse-black 2s infinite;
+  -ms-animation: pulse-black 2s infinite;
+  -o-animation: pulse-black 2s infinite;
+  background-color: #4dc247;
+    color: #fff;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.whatsapp a:hover {
+  background-color: 191D3B;
+}
+.whatsapp a i {
+  font-size: 28px;
+}
+   </style>
+   <div class="whatsapp">
+    <a class="d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=917505699509&amp;source=Website&amp;text=Hello,Himalayan Hikers"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+   <header class="th-header1">
+      <!-- Top Header -->
+      <div class="header-top1">
+         <div class="header-container ">
+            <div class="header-inner1">
+               <!-- Logo -->
+               <!-- Desktop Logo Only -->
+               <div class="header-logo-desktop">
+                  <a href="https://himalayanhikers.in">
+                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  </a>
+               </div>
+               <!-- Mobile Logo + Menu Button -->
+               <div class="header-logo-mobile">
+                  <a href="https://himalayanhikers.in">
+                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  </a>
+                  <!-- Search button -->
+                  <i class="fa fa-search search-btn"></i>
+                  <!-- Menu button -->
+                  <button type="button" class="th-menu-toggle">
+                  <i class="far fa-bars"></i>
+                  </button>
+               </div>
+               <div class="mobile-search header-search1" id="mobileSearch">
+                  <input type="text" id="mobileSearchInput" placeholder="Search here...">
+                  <i class="fa fa-search search-icon"></i>
+               </div>
+               <!-- Mobile search result dropdown -->
+               <div id="mobileSearchResults" style="
+                  position: absolute;
+                  top: 100px; /* adjust based on your layout */
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 90%;
+                  background: #fff;
+                  border: 1px solid #ccc;
+                  max-height: 300px;
+                  overflow-y: auto;
+                  display: none;
+                  z-index: 9999;
+                  "></div>
+               <!-- Links -->
+               <div class="header-links1">
+                  <ul class="desktop-only">
+                     <li class="desktop-only"><a href="https://himalayanhikers.in/careers"><i class="fa-solid fa-briefcase"></i>&nbsp;Careers</a></li>
+                     <li class="desktop-only"><a href="https://himalayanhikers.in/support"><i class="fas fa-headset"></i>&nbsp;Support & Assistance</a></li>
+                     <li class="desktop-only"><a href="#"><i class="fa-solid fa-cart-shopping"></i> &nbsp;Shop</a></li>
+                     <li class="desktop-only"><a href="https://rent.himalayanhikers.in/" target="blank"><i class="fas fa-hiking"></i> &nbsp;Rent Gear</a></li>
+                     <li class="desktop-only"><a href="faq"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;Faqs</a></li>
+                  </ul>
+               </div>
+               <!-- Desktop Search -->
+               <!-- HTML -->
+               <div class="header-search1">
+                  <input type="text" id="search" placeholder="Search Trek By Name, region" onkeyup="liveSearch(this.value)">
+                  <div id="livesearch" class="search-results"></div>
+                  <i class="fa fa-search search-icon"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="menu-area1">
+         <div class="nav-container">
+            <!-- Mobile: Search bar + Toggle button -->
+            <nav class="main-menu1">
+               <ul>
+                  <li class="custom-dropdown1"><a href="https://himalayanhikers.in/" style="color: #fff;">fixed departure treks <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                   <ul  class="custom-submenu1" style="  min-width: 240px;">
+              
+                      <li><a href="upcoming-autumn-trek"> Upcoming Autumn Trek </a> </li>
+                      <li><a href="upcoming-monsoon-trek"> Upcoming Monsoon Trek </a> </li>
+                      <li><a href="upcoming-spring-trek"> Upcoming Spring Trek </a> </li>
+                      <li><a href="upcoming-summer-trek"> Upcoming Summer Trek </a> </li>
+                      <li><a href="upcoming-winter-trek"> Upcoming Winter Trek </a> </li>
+              
+                  </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">our Story <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/about-us">About us </a></li>
+                        <li><a href="https://himalayanhikers.in/our-mission">our Mission</a></li>
+                        <li><a href="https://himalayanhikers.in/our-commitments">our Commitment</a></li>
+                        <li><a href="https://himalayanhikers.in/explore-our-leadership">Our Leadership</a></li>
+                              <li><a href="https://himalayanhikers.in/connecting-to-himalayas">Connecting To Himalayas</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Learning Trails Program <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1" style="  min-width: 260px;">
+                        <li><a href="https://himalayanhikers.in/school-outdoor-learning-program">School Program</a></li>
+                        <li><a href="https://himalayanhikers.in/university-outdoor-learning-program">University Program</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Expeditions <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1" style="  min-width: 290px;">
+                        <li><a href="https://himalayanhikers.in/satopanth-expedition">Satopanth ( 7075 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/kalindi-pass">Kalindi Pass ( 6000 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/black-peak-expedition">Black Peak ( 6387 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/kedar-dome-expedition">Kedar Dome ( 6831 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/bhagirathi-peak-expedition">Bhagirathi Peak 2 ( 6512 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/shivling-peak-expedition">Shivling Peak ( 6543 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/ranglana-peak-expedition">Ranglana Peak ( 5554 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/bandarpunch-expedition">Bandarpunch ( 6316 Meter )</a></li>
+                        <li><a href="https://himalayanhikers.in/mt-kamet-expedition">Mt. Kamet (7756 Meter)</a></li>
+                        <li><a href="https://himalayanhikers.in/nanda-ghunti-peak-expedition">Nanda Ghunti Peak Expedition</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="https://himalayanhikers.in/blog" style="color: #fff;">
+                     Articles <i class="fa fa-caret-down" aria-hidden="true"></i>
+                     </a>
+                     <ul class="custom-submenu1">
+                                                <li class="custom-dropdown2">
+                           <a href="/category/health-altitude-awareness">
+                           Health & Altitude Awareness 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/mountain-sickness-acclimatization">Mountain Sickness & Acclimatization</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/inspiration-philosophy">
+                           Inspiration & Philosophy 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/family-kids-women-trekking">Family, Kids & Women Trekking</a></li>
+                                                            <li><a href="/category/local-info-stay-services">Local Info, Stay & Services</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/news-announcements">
+                           News & Announcements 
+                                                      </a>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/pilgrimage-yatra">
+                           Pilgrimage & Yatra 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/spiritual-mythological-treks">Spiritual & Mythological Treks</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/trek-destinations-comparisons">
+                           Trek Destinations & Comparisons 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/best-treks-by-region">Best Treks by Region</a></li>
+                                                            <li><a href="/category/seasonal-time-based-treks">Seasonal & Time-Based Treks</a></li>
+                                                            <li><a href="/category/trek-guides-honest-reviews">Trek Guides & Honest Reviews</a></li>
+                                                            <li><a href="/category/trek-planning-gear-safety">Trek Planning, Gear & Safety</a></li>
+                                                         </ul>
+                                                   </li>
+                                                <li class="custom-dropdown2">
+                           <a href="/category/trekking-zones">
+                           Trekking Zones 
+                           <i class="fa fa-caret-right" aria-hidden="true"></i>                           </a>
+                                                      <ul class="custom-submenu2">
+                                                            <li><a href="/category/forest-protection">Forest Protection</a></li>
+                                                         </ul>
+                                                   </li>
+                                             </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">Yatra <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/char-dham-yatra">Chard Dham Yatra</a></li>
+                        <li><a href="https://himalayanhikers.in/do-dham-yatra">Do Dham Yatra</a></li>
+                        <li><a href="https://himalayanhikers.in/kedarnath-trek">Kedarnath Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/badrinath-trek">Badrinath Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/hemkund-sahib-trek">Hemkund Shahib trek</a></li>
+                        <li><a href="https://himalayanhikers.in/panch-kedar-trek">Panch kedar trek</a></li>
+                        <li><a href="https://himalayanhikers.in/tungnath-trek">Tungnath trek</a></li>
+                     </ul>
+                  </li>
+                  <li class="custom-dropdown1">
+                     <a href="#" style="color: #fff;">customize trek <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                     <ul class="custom-submenu1">
+                        <li><a href="https://himalayanhikers.in/private-trek">Private Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/corporate-trek">Corporate Trek</a></li>
+                        <li><a href="https://himalayanhikers.in/family-trek">Family Trek</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+   <style>
+
+      @media screen and (max-width: 768px) {
+      #livesearch {
+      display: none !important;
+      }
+      }
+      .header {
+      height: 80px; /* or whatever your intended height is */
+      overflow: hidden; /* prevents dropdown from expanding header */
+      position: relative;
+      z-index: 1000;
+      }
+      #livesearch {
+      position: fixed;
+      }
+      #livesearch {
+      position: absolute;
+      top: 46px;
+      left: 42%;
+      transform: translateX(-50%);
+      width: 203px;
+      background: #fff;
+      max-height: 300px;
+      overflow-y: auto;
+      z-index: 9999;
+      }
+      @media screen and (max-width: 768px) {
+      .header-search1:not(.mobile-search) {
+      display: none;
+      }
+      }
+      @media screen and (min-width: 769px) {
+      .mobile-search {
+      display: none;
+      }
+      }
+      /* Reset */
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+      body {
+      font-family: Arial, sans-serif;
+      }
+      .container {
+      width: 100%;
+      margin: 0 auto;
+      }
+      /* Make header full-width but preserve internal layout */
+      .header-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      /* Make nav area full-width */
+      .nav-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      .header-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      }
+      /* Sticky Header */
+      .th-header1 {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: #fff;
+      }
+      @media (max-width: 768px) {
+      .th-header1 {
+      border-bottom: 3px solid #ddd;
+      }
+      }
+      /* Top Header */
+      .header-top1 {
+      background: #fff;
+      padding: 10px 0;
+      }
+      .header-inner1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      }
+      /* ===== DESKTOP LOGO ONLY ===== */
+      .header-logo-desktop {
+      display: none; /* Hidden by default */
+      }
+      @media (min-width: 992px) {
+      .header-logo-desktop {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      }
+      .header-logo-desktop img {
+      max-height: 70px;
+      padding-left: 40px;
+      width: auto; /* Optional, control width if needed */
+      }
+      }
+      /* ===== MOBILE LOGO + MENU BUTTON ===== */
+      .header-logo-mobile {
+      display: none; /* Hidden by default */
+      }
+      @media (max-width: 991px) {
+      .header-logo-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      }
+      .header-logo-mobile img {
+      max-height: 70px;
+      width: auto; /* Optional */
+      }
+      .th-menu-toggle {
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      }
+      }
+      .search-btn {
+      font-size: 24px;
+      color: #333;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      }
+      .search-btn:hover {
+      color: #007BFF;
+      }
+      .header-search1 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      max-width: 360px;
+      width: 100%;
+      padding-right: 40px;
+      }
+      .header-search1 input {
+      width: 100%;
+      height: 40px;
+      padding: 4px 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 12px;
+      font-family: Franklin Gothic Book;
+      border-radius: 12px;
+      border: 1px solid #ced4da;
+      outline: none;
+      transition: all 0.3s ease;
+      }
+      .header-search1 input:focus {
+      border-color: black;
+      }
+      .search-icon {
+      position: absolute;
+      right: 45px;
+      top: 50%; /* Center the icon vertically */
+      transform: translateY(-50%); /* Perfect vertical centering */
+      font-size: 18px; /* Reduced icon size */
+      color: black;
+      background-color: #E9F6F9; /* Initial background color */
+      border-radius: 12px; /* Circular background */
+      width: 40px; /* Background width */
+      height: 35px; /* Background height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+      }
+      .search-icon:hover {
+      background-color: #ff4300; /* Change background color on hover */
+      color: #fff;
+      }
+      .header-links1 ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      padding-top: 15px;
+      }
+      .header-links1 ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: "Franklin Gothic";
+      }
+      .header-links1 ul li a:hover {
+      color: #ff4300;
+      }
+      /* Hide specific links on mobile */
+      .desktop-only {
+      display: inline-block;
+      }
+      @media (max-width: 991px) {
+      .desktop-only {
+      display: none !important;
+      }
+      .header-links1 ul {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+      }
+      .header-links1 ul li {
+      margin: 0;
+      }
+      .header-search1 {
+      display: none;
+      }
+      }
+      .th-menu-wrapper .mobile-logo {
+      padding-bottom: 20px !important;
+      padding-top: 20px !important;
+      }
+      /* Navigation Area */
+      .menu-area1 {
+      background: #ff4300;
+      /*  border-top: 2px solid #eee;*/
+      /*  border-bottom: 1px solid black;*/
+      padding: 10px 0;
+      font-family: Oswald Regular;
+      }
+      .menu-toggle1 {
+      font-size: 20px;
+      background: #ff4300;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      margin: 0;
+      }
+      /* Mobile Search + Toggle Row */
+      .mobile-search {
+      display: none; /* hidden by default */
+      }
+      .mobile-search button {
+      padding: 8px 12px;
+      background: #ff4500;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      }
+      /* Main Menu */
+      .main-menu1 {
+      display: flex;
+      justify-content: center;
+      }
+      .main-menu1 ul {
+      display: flex;
+      list-style: none;
+      gap: clamp(30px, 8vw, 120px); /* Responsive gap */
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      }
+      .main-menu1 ul li {
+      position: relative;
+      }
+      .main-menu1 ul li a {
+      text-decoration: none;
+      color: #000000ff;
+      font-weight: 850;
+      text-transform: uppercase;
+      transition: 0.3s;
+      }
+      .main-menu1 ul li a:hover {
+      color: white;
+      }
+      /* Dropdown */
+      .custom-dropdown1 {
+      position: relative;
+      }
+      .custom-dropdown1 .custom-submenu1 {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      min-width: 200px;
+      z-index: 999;
+      padding: 0px 0;
+      margin: 10px;
+      pointer-events: auto; /* ensure it can be hovered */
+      }
+      .custom-dropdown1::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 10px; /* same as margin */
+      width: 100%;
+      background: transparent;
+      z-index: 998;
+      }
+      .custom-dropdown1:hover .custom-submenu1 {
+      display: block;
+      }
+      .custom-submenu1 li {
+      width: 100%;
+      }
+      .custom-submenu1 li a {
+      padding: 10px 20px;
+      display: block;
+      font-size: 14px;
+      color: #000;
+      }
+      .custom-dropdown1  li a:hover {
+      background-color: #ffffffff;
+      }
+      .custom-submenu1 li a:hover {
+      background-color: #ff4300;
+      color: #ff4300;
+      }
+      /* Second-Level Dropdown */
+      .custom-dropdown2 {
+      position: relative;
+      }
+      .custom-dropdown2 .custom-submenu2 {
+      display: none;
+      position: absolute;
+      top: 12px;
+      left: calc(100% + 0.8px);
+      background: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      min-width: 200px;
+      z-index: 999;
+      padding: 10px 0;
+      }
+      .custom-dropdown2:hover .custom-submenu2 {
+      display: block;
+      }
+      .custom-submenu2 li {
+      width: 100%;
+      }
+      .custom-submenu2 li a {
+      padding: 10px 20px;
+      display: block;
+      font-size: 14px;
+      color: #000;
+      }
+      .custom-submenu2 li a:hover {
+      background-color: #ff4300;
+      color: #ff4300;
+      }
+      /* Responsive Navigation */
+      @media (max-width: 991px) {
+      .main-menu1 {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      }
+      .main-menu1.open {
+      display: flex;
+      }
+      .main-menu1 ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      }
+      .main-menu1 ul li {
+      width: 100%;
+      text-align: center;
+      }
+      .custom-submenu1 {
+      position: static;
+      box-shadow: none;
+      background: none;
+      padding: 0;
+      }
+      .custom-submenu1 li a {
+      padding: 10px 0;
+      }
+      .menu-area1 {
+      background-color: #fff !important;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      display: none;
+      }
+      .menu-toggle1 {
+      background-color: #fff;
+      color: #ff4300;
+      }
+      .menu-controls {
+      display: flex;
+      }
+      }
+      @media (min-width: 992px) {
+      .menu-controls {
+      display: none;
+      }
+      }
+      /* ✅ Medium Screens Fixes (994px to 1200px) */
+      @media (min-width: 994px) and (max-width: 1200px) {
+      .main-menu1 ul {
+      gap: 20px;
+      }
+      .header-search1 {
+      max-width: 220px;
+      }
+      .header-logo1 img {
+      max-height: 40px;
+      }
+      .header-links1 ul li a {
+      font-size: 12.5px;
+      }
+      .header-links1 ul {
+      gap: 15px;
+      }
+      }
+      /*  Medium-Large Screens Fix (1201px to 1300px) */
+      @media (min-width: 1201px) and (max-width: 1399px) {
+      .main-menu1 ul {
+      gap: 30px;
+      }
+      .header-search1 {
+      max-width: 250px;
+      }
+      .header-logo1 img {
+      max-height: 55px;
+      }
+      .header-links1 ul li a {
+      font-size: 13px;
+      }
+      }
+      /*  Large-Medium Screens Fix (1301px to 1470px) */
+      @media (min-width: 1400px) and (max-width: 1870px) {
+      .main-menu1 ul {
+      gap: 65px;
+      }
+      .header-search1 {
+      max-width: 300px;
+      }
+      }
+      /* General Reset for Box-Sizing */
+      * {
+      box-sizing: border-box;
+      }
+      .latest-news {
+      width: 100%;
+      background-color: black;
+      color: #fff;
+      padding: 10px 0; /* No left/right padding here */
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      }
+      .news-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 15px; /* Default padding for mobile/tablet */
+      box-sizing: border-box;
+      }
+      .news-item {
+      font-size: 15px;
+      white-space: normal;
+      line-height: 1.5;
+      text-align: left;
+      width: 100%;
+      }
+      /* Tablet styles */
+      @media (min-width: 768px) {
+      .news-item {
+      font-size: 16px;
+      }
+      }
+      /* Desktop & Laptop */
+      @media (min-width: 1024px) {
+      .news-container {
+      padding-left: 40px;     /* Add 40px left space */
+      padding-right: 40px;    /* Optional: balance right side */
+      }
+      .news-item {
+      font-size: 18px;
+      }
+      }
+      .news-item a {
+      color: #00BFFF;
+      text-decoration: underline;
+      font-weight: 500;
+      }
+      @keyframes scroll-news {
+      0% {
+      transform: translateX(100%);
+      }
+      100% {
+      transform: translateX(-100%);
+      }
+      }
+      /* Prevent Horizontal Overflow */
+      body, html {
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+      }
+      /*you tube video section*/
+      /* Section background and wrapper */
+      .youtube-section-wrapper {
+      background-color: #fef5f0;
+      width: 100%;
+      padding-top: 2px;    
+      }
+      /* Section title */
+      .youtube-card-section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: black;
+      padding: 10px;
+      border-bottom: 3px solid #ff4300;
+      margin: 45px 45px 0 45px;
+      }
+      .youtube-card-section-title h3 {
+      margin: 0;
+      }
+      /* Cards container */
+      .youtube-card-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      /*  border-bottom: 3px solid#ff4300;*/
+      margin: 0 auto;
+      max-width: 2000px;
+      padding: 0 10px;
+      margin-top: 20px; /* Added margin-top to create space between the title and cards */
+      }
+      /* Individual card */
+      .youtube-card {
+      border-radius: 6px;
+      cursor: pointer;
+      width: 330px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      }
+      .image-wrapper {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      }
+      .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      }
+      .play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: white;
+      background-color: red;
+      border-radius: 50%;
+      padding: 10px;
+      opacity: 0.8;
+      pointer-events: none;
+      z-index: 2;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      .youtube-card-content {
+      padding: 10px;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.7rem;
+      color: black;
+      margin-bottom: 15px;
+      font-weight: 600;
+      }
+      .youtube-card-content p {
+      font-size: 1rem;
+      color: black;
+      line-height: 1.6;
+      }
+      /* Modal */
+      .youtube-card-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      }
+      .youtube-card-modal-content {
+      position: relative;
+      background: transparent;
+      border-radius: 9px;
+      padding: 0;
+      width: 80%;
+      max-width: 800px;
+      }
+      .youtube-card-modal-content iframe {
+      width: 100%;
+      height: 450px;
+      border: none !important;
+      border-radius: 9px;
+      display: block;
+      outline: none;
+      }
+      .youtube-card-modal-content .close {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #333;
+      background: #eee;
+      border: none;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s;
+      z-index: 1000;
+      }
+      .youtube-card-modal-content .close:hover {
+      background: #ccc;
+      }
+      /* Responsive styles */
+      @media (max-width: 768px) {
+      .youtube-card {
+      width: 100%;
+      }
+      .youtube-card-container {
+      flex-direction: column;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.4rem;
+      }
+      .youtube-card-modal-content iframe {
+      height: 300px;
+      }
+      }
+      @media (max-width: 768px) {
+      .youtube-card {
+      width: 100%;
+      }
+      .youtube-card-container {
+      flex-direction: column;
+      }
+      .youtube-card-content h3 {
+      font-size: 1.4rem;
+      }
+      .youtube-card-modal-content iframe {
+      height: 300px;
+      }
+      }
+      /*Tour Snapshot*/
+      /* Main container */
+      .trek-grid-container {
+      width: 80%;                 /* Default width for desktop/laptop */
+      max-width: 100%;            /* Ensure it doesn't exceed the screen width */
+      /*  background: #f5f5f5;*/
+      border-bottom: 3px solid #ff4300;
+      padding: 2px;
+      margin: 0 auto 35px auto;   /* Default margin for desktop */
+      display: grid;
+      grid-template-columns: repeat(6, 1fr); /* Default 4 columns for desktop */
+      box-sizing: border-box;     /* Ensure padding doesn't affect width */
+      overflow: hidden;           /* Prevent overflow in case of small screen */
+      /*      margin-top: 10px;*/
+      margin-bottom: 20px;
+      }
+      /* Grid item styling */
+      .trek-item {
+      padding: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      }
+      .trek-item i {
+      font-size: 22px;
+      color: #ff4300;
+      margin-top: 3px;
+      }
+      .trek-text {
+      display: flex;
+      flex-direction: column;
+      }
+      .trek-label {
+      font-size: 14px;
+      color: #000000;
+      text-transform: uppercase;
+      font-weight: 780;
+      }
+      .trek-value {
+      font-size: 14px;
+      color: #222;
+      font-weight: 500;
+      line-height: 1.3;
+      }
+      /* ✅ Responsive Behavior */
+      /* Tablets and devices smaller than 1024px */
+      @media (max-width: 1024px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 10px; /* Less padding for smaller screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      }
+      /* Devices smaller than 768px (small tablets and large phones) */
+      @media (max-width: 768px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller devices */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 10px; /* Less padding for smaller screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      }
+      /* Mobile devices */
+      @media (max-width: 480px) {
+      .trek-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+      width: 100%;  /* Ensure the container takes the full width */
+      padding: 5px; /* Further reduce padding on small screens */
+      margin-top: 0; /* Ensure no top margin */
+      }
+      .trek-item {
+      gap: 8px; /* Reduce gap for better fit */
+      }
+      }
+      /*booking card*/
+      /* General Styles */
+      .trek-card1 {
+      max-width: 365px;
+      background: #f5f5f5;
+      border-radius: 3px;
+      margin: auto;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+      border: 5px solid #ff4300;
+      }
+      .trek-card1 h2 {
+      font-size: 20px;
+      margin: 0 0 15px;
+      color: black;
+      }
+      .fee1 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #ff4300;
+      }
+      .breakdown1 p {
+      margin: 2px 0;
+      color: black;
+      font-size: 14px;
+      font-weight: 600;
+      }
+      .breakdown1 p {
+      margin: 0 0 4px 0; /* bottom me 4px ka gap */
+      }
+      .breakdown1 p:last-child {
+      margin-bottom: 0; /* last 
+      <p>
+         ke neeche bilkul bhi gap nahi */
+         }
+         .optional1 {
+         margin-top: 15px;
+         /*  padding-top: 10px;*/
+         border-top: 1px dashed #ccc;
+         }
+         .optional1 p {
+         font-size: 14px;
+         font-style: italic;
+         color: black;
+         margin: 4px 0;
+         }
+         .links1 {
+         margin-top: 5px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         /*  gap: 10px 20px;*/
+         }
+         .links1 a {
+         color: #1976d2;
+         text-decoration: none;
+         font-size: 14px;
+         transition: 0.2s;
+         }
+         .links1 a:hover {
+         text-decoration: underline;
+         }
+         .dropdown1 {
+         margin-top: 25px;
+         position: relative;
+         }
+         .dropdown1 label {
+         display: block;
+         font-weight: bold;
+         margin-bottom: 8px;
+         color: black;
+         }
+         /* Color classes for different status */
+         .available {
+         color: #27ae60; /* Green for available */
+         }
+         .full {
+         color: #e74c3c; /* Red for full */
+         }
+         .left {
+         color: #f39c12; /* Yellow for seats left */
+         }
+         .dropdown1 select {
+         width: 100%;
+         padding: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         font-size: 13px;
+         background-color: #fafafa;
+         cursor: pointer;
+         appearance: none;
+         box-sizing: border-box; /* Important for width calculations */
+         height: 38px;
+         }
+         /* Focus state for better visibility */
+         .dropdown1 select:focus {
+         border-color: #1976d2;
+         box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+         }
+         /* Mobile Specific Styles */
+         @media (max-width: 768px) {
+         .trek-card1 {
+         padding: 20px 15px;
+         }
+         .dropdown1 select {
+         padding: 14px; /* Adjust padding for better visibility */
+         font-size: 16px; /* Make font size a little bigger for mobile */
+         }
+         .dropdown1 select option {
+         font-size: 16px; /* Better font size for options */
+         }
+         /* Ensure the dropdown doesn't overlap */
+         .dropdown1 {
+         margin-top: 20px;
+         }
+         /* Ensuring select options are not hidden */
+         .dropdown1 select {
+         min-width: 100%; /* Make sure it takes up full width */
+         }
+         }
+         /*read more*/
+         .read-more-button {
+         padding: 3px 10px;
+         background-color: #264D32;
+         color: white;
+         border: none;
+         border-radius: 2px;
+         cursor: pointer;
+         text-align: center;
+         font-size: 14px;
+         font-weight: 800px;
+         }
+         .read-more-button:hover {
+         background-color: black;
+         }
+         /*  dropdown-deyal itinerary*/
+         .detaildropdown {
+         border: 1px solid #ccc;
+         border-radius: 2px;
+         margin-bottom: 7px;
+         overflow: hidden;
+         }
+         .detaildropdown-btn {
+         /*      background-color: #f4f4f4;*/
+         background-color: #FFF;
+         padding: 15px;
+         font-size: 16px;
+         font-weight: bold;
+         border: none;
+         width: 100%;
+         text-align: left;
+         cursor: pointer;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         }
+         .detaildropdown-btn .icon {
+         font-size: 16px;
+         transition: transform 0.3s ease;
+         }
+         .detaildropdown-btn.active .icon {
+         transform: rotate(180deg);
+         }
+         .detaildropdown-content {
+         display: none;
+         padding: 15px;
+         background: #fff;
+         border-top: 1px solid #ccc;
+         }
+         .detaildropdown-content h3,h4{
+         font-size: 18px;
+         }
+         .detailtabs {
+         display: flex;
+         overflow-x: auto;
+         white-space: nowrap;
+         background-color: #f4f4f4;
+         margin-bottom: 10px;
+         -webkit-overflow-scrolling: touch;
+         scrollbar-width: none;
+         }
+         .detailtabs::-webkit-scrollbar {
+         display: none;
+         }
+         .detailtab {
+         flex: 0 0 auto;
+         padding: 10px 15px;
+         cursor: pointer;
+         border-right: 1px solid #ccc;
+         font-weight: bold;
+         text-align: center;
+         }
+         .detailtab:last-child {
+         border-right: none;
+         }
+         .detailtab.active {
+         background-color: #ddd;
+         border-bottom: 3px solid red;
+         }
+         .detailtab-content {
+         display: none;
+         }
+         .detailtab-content.active {
+         font-size: 15px;
+         display: block;
+         }
+         img {
+         max-width: 100%;
+         height: auto;
+         /*      margin: 10px 0;*/
+         }
+         @media (max-width: 768px) {
+         .detailtab {
+         font-size: 14px;
+         padding: 10px 12px;
+         }
+         }
+         .faq-item {
+         margin-bottom: 8px;
+         }
+         /*faq-sub*/
+         .detailfaq-item {
+         max-width: 700px;
+         margin: 0 auto 10px;
+         }
+         .detailfaq-question {
+         background: none;
+         border: none;
+         font-weight: bold;
+         font-size: 16px;
+         cursor: pointer;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 0;
+         border-bottom: 1px solid red;
+         transition: all 0.3s ease;
+         padding: 12px 16px;
+         text-align: left;
+         }
+         .question-text-wrapper {
+         display: flex;
+         flex-direction: column;
+         } 
+         .question-subheading {
+         font-size: 0.85em;
+         color: #777;
+         font-style: italic;
+         margin-top: 4px;
+         }
+         .detailfaq-icon {
+         margin-left: auto;
+         font-size: 20px;
+         }
+         .detailfaq-question.active .detailfaq-icon {
+         transform: rotate(180deg);
+         }
+         .detailfaq-answer {
+         display: none;
+         padding: 10px 0;
+         font-size: 14px;
+         }
+         .question-text {
+         font-weight: bold;
+         font-size: 1.3em;
+         color: #000000;
+         }
+         .question-subheading {
+         font-size: 0.85em;
+         color: #777;
+         font-style: italic;
+         margin-top: 4px;
+         }
+         /*location-map*/
+         .location-map-section {
+         padding: 0px 0 15px;
+         text-align: center;
+         }
+         .map-wrapper {
+         max-width: 1000px; /* Adjust this based on image width or design */
+         margin: 0 auto; /* Centers the wrapper */
+         text-align: left; /* Align heading to left inside the wrapper */
+         }
+         .map-wrapper .page-title {
+         margin-bottom: 20px;
+         border-bottom: 3px solid #ff4300;
+         padding-bottom: 10px;
+         font-size: 28px;
+         }
+         /*galley section*/
+         .seasons-gallery-section {
+         width: 100%;
+         padding: 10px 74px 5px 94px; /* top, right, bottom, left */
+         }
+         .detailgallery-tabs {
+         margin-bottom: 20px;
+         text-align: left;
+         }
+         .detailgallery-tab-button {
+         padding: 5px 15px;
+         margin: 0 1px;
+         background-color: #ddd;
+         border: none;
+         cursor: pointer;
+         border-radius: 2px;
+         }
+         .detailgallery-tab-button.active {
+         background-color: #ff4300;
+         color: white;
+         }
+         .detailgallery-gallery {
+         display: none;
+         grid-template-columns: repeat(4, 1fr);
+         gap: 10px;
+         }
+         .detailgallery-gallery.active {
+         display: grid;
+         }
+         .image-card {
+         height: 250px;          /* Sab cards ka fixed height */
+         overflow: hidden;
+         border-radius: 5px;
+         }
+         .image-card img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         cursor: pointer;
+         border-radius: 5px;
+         transition: transform 0.2s ease;
+         }
+         .image-card img:hover {
+         transform: scale(1.03);
+         }
+         .detailgallery-image:hover {
+         transform: scale(1.03);
+         }
+         .detailgallery-lightbox {
+         display: none;
+         position: fixed;
+         top: 0; left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0,0,0,0.9);
+         justify-content: center;
+         align-items: center;
+         z-index: 999;
+         flex-direction: column;
+         }
+         .detailgallery-lightbox img {
+         max-width: 90%;
+         max-height: 80%;
+         margin-bottom: 20px;
+         border-radius: 5px;
+         }
+         .detailgallery-controls {
+         color: white;
+         font-size: 24px;
+         display: flex;
+         justify-content: center;
+         gap: 50px;
+         cursor: pointer;
+         }
+         .detailgallery-close-btn {
+         position: absolute;
+         top: 20px;
+         right: 30px;
+         font-size: 30px;
+         color: white;
+         cursor: pointer;
+         }
+         .detailgallery-caption {
+         color: white;
+         text-align: center;
+         max-width: 90%;
+         margin: 10px auto 20px;
+         font-size: 16px;
+         }
+         .pagination  {
+         padding-top: 15px; 
+         text-align: center;
+         }
+         .pagination button {
+         margin: 0 5px;
+         padding: 8px 12px;
+         border: none;
+         background-color: #ddd;
+         border-radius: 4px;
+         cursor: pointer;
+         }
+         .pagination button.active {
+         background-color: #ff4300;
+         color: white;
+         }
+         /* Responsive Breakpoints */
+         @media (max-width: 768px) {
+         .detailgallery-gallery {
+         grid-template-columns: repeat(2, 1fr);
+         }
+         }
+         @media (max-width: 480px) {
+         .seasons-gallery-section {
+         padding: 20px 15px 10px 15px;
+         }
+         .detailgallery-gallery {
+         grid-template-columns: 1fr;
+         }
+         .detailgallery-controls {
+         flex-direction: column;
+         gap: 15px;
+         }
+         }
+   </style>
+   <script>
+       
+       function liveSearch(str) {
+    if (str.length == 0) {
+        document.getElementById("livesearch").innerHTML = "";
+        document.getElementById("livesearch").style.display = "none";
+        return;
+    }
+    fetch("/search.php?q=" + encodeURIComponent(str))
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("livesearch").innerHTML = data;
+            document.getElementById("livesearch").style.display = "block";
+        });
+}
+
+      // JS
+    //   function liveSearch(query) {
+    //   const output = document.getElementById("livesearch");
+      
+    //   if (query.length === 0) {
+    //   output.innerHTML = "";
+    //   output.style.display = "none";
+    //   return;
+    //   }
+      
+    //   fetch("search.php?q=" + encodeURIComponent(query))
+    //   .then(response => response.text())
+    //   .then(data => {
+    //     output.innerHTML = data;
+    //     output.style.display = "block";
+    //   })
+    //   .catch(err => {
+    //     console.error("Search error:", err);
+    //     output.innerHTML = "<div style='color:red;'>Error loading results</div>";
+    //     output.style.display = "block";
+    //   });
+    //   }
+      
+   </script>
+   <script>
+      document.getElementById("mobileSearchInput").addEventListener("keyup", function () {
+        const query = this.value;
+        const output = document.getElementById("mobileSearchResults");
+      
+        if (query.length === 0) {
+          output.innerHTML = "";
+          output.style.display = "none";
+          return;
+        }
+      
+        fetch("search.php?q=" + encodeURIComponent(query))
+          .then(response => response.text())
+          .then(data => {
+            output.innerHTML = data;
+            output.style.display = "block";
+          })
+          .catch(err => {
+            output.innerHTML = "<div style='color:red;'>Error loading results</div>";
+            output.style.display = "block";
+          });
+      });
+   </script>         </head>
+      <body>
+            <div class="breadcumb-wrapper" style="background-color:#4e7327; padding: 40px 0;">
+         <div class="container" style="text-align: center; color: white;">
+            <div class="breadcumb-content">
+               <h1 class="breadcumb-title" style="margin-bottom: 20px;">Cancellation Policy
+               </h1>
+            </div>
+         </div>
+      </div>
+      <section>
+         <div class="tab">
+            <a data-tab="privacy" data-url="/privacy-policy" class="tab-link">Privacy Policy</a>
+            <a data-tab="terms" data-url="/terms-of-service" class="tab-link">Terms & Conditions</a>
+            <a data-tab="cancel" data-url="/cancellation-policy" class="tab-link">Cancellation Policy</a>
+            <a data-tab="copyright" data-url="/copyright-policy" class="tab-link">Copyright Policies</a>
+         </div>
+      </section>
+      <div class="container2">
+         <div id="terms" class="tab-content active">
+            <div class="entry-content">
+               <h2>Terms & Conditions of Website Use and Trip Participation – Himalayan Hikers</h2>
+               <p>The domain name <a href="http://www.himalayanhikers.in/">www.himalayanhikers.in</a> is owned and operated by Himalayan Hikers (Hereinafter known as ‘Himalayan Hikers'), company registered office at Village Sour, PO Sankri Mori Dehradun Uttarkashi Uttarakhand 249128.</p>
+               <p>By accessing or using this Website, or by booking a trip with Himalayan Hikers, you (“you” or “Participant”) agree to comply with and be legally bound by the following Terms and Conditions of Website Use and Trip Participation, along with our Privacy Policy and other applicable policies or disclaimers. If you disagree with any part of these terms, please do not use our Website or services.</p>
+               <h3>1. Acceptance of Risk</h3>
+               <ul>
+                  <li>Participation in trekking, expeditions, and related outdoor activities (“Trek”) involves inherent risks, including injury, illness, accidents, or death.</li>
+                  <li>You voluntarily accept all such risks and agree to be fully responsible for your health, safety, and actions.</li>
+                  <li>You must disclose any relevant medical conditions and confirm your physical and psychological fitness prior to booking.</li>
+               </ul>
+               <h3>2. Booking and Payment</h3>
+               <ul>
+                  <li>Booking a trip signifies full acceptance of these Terms by the Participant.</li>
+                  <li>Accurate information must be provided during booking.</li>
+                  <li>Full payment must be made before the deadline; failure may result in cancellation without refund.</li>
+                  <li>Refunds, where applicable, shall be processed within 7–8 working days.</li>
+                  <li>Vouchers, promotions, and discounted bookings are non-refundable and non-transferable.</li>
+               </ul>
+               <h3>3. Participation by Minors</h3>
+               <ul>
+                  <li>Participants under 15 must be accompanied by a parent/guardian.</li>
+                  <li>Participants aged 15–18 may trek solo with a signed disclaimer from a guardian.</li>
+               </ul>
+               <h3>4. Cancellation and Refund Policy</h3>
+               <ul>
+                  <li>No refunds for voluntary withdrawal, late arrival, or disqualification for health/misconduct.</li>
+                  <li>If Himalayan Hikers cancels a Trip before departure due to Force Majeure, options include:</li>
+                  <li>Alternative trip/date</li>
+                  <li>Credit voucher (1-year validity)</li>
+               </ul>
+               <h4>Transfer to another trip with cost adjustments</h4>
+               <ul>
+                  <li>No refund if the Trip is aborted after reaching the base camp.</li>
+                  <li>We are not liable for third-party travel, accommodation, or visa costs.</li>
+               </ul>
+               <h4>Trek Date Change Policy</h4>
+               <ul>
+                  <li>All requests to reschedule a trek date must be submitted via email to: <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a></li>
+                  <li>Such requests must be made at least 7 (seven) days prior to the originally scheduled trek date.</li>
+                  <li>The first date change request is permitted free of charge.</li>
+                  <li>From the second date change onward, a rescheduling fee of 10% of the total invoice amount will be applicable for each change.</li>
+                  <li>Once a date change has been processed, the booking becomes non-cancellable and non-refundable under all circumstances.</li>
+               </ul>
+               <h3>5. Safety and Medical Protocols</h3>
+               <ul>
+                  <li>Mandatory daily health checks (BP, oxygen, pulse) during trek.</li>
+                  <li>AMS awareness briefing is compulsory. Refusal may lead to denial of participation.</li>
+                  <li>Participants must carry all mandatory safety gear. Incomplete gear may lead to denial of trek entry.</li>
+                  <li>Participants showing AMS, critical vitals, or unfit behavior may be forced to descend.</li>
+                  <li>Headphones, noise-canceling devices, or electronic distractions are banned on trail.</li>
+                  <li>No participant may separate from the group or take alternate trails.</li>
+               </ul>
+               <h3>6. Emergency Evacuation and Consent</h3>
+               <ul>
+                  <li>Participants authorize Himalayan Hikers to initiate emergency evacuations at their cost.</li>
+                  <li>Once removed or evacuated, Himalayan Hikers bears no further responsibility.</li>
+                  <li>Evacuation waiver forms must be signed at base camp.</li>
+               </ul>
+               <h3>7. Health Certificate and Fitness Requirement</h3>
+               <ul>
+                  <li>Medical certificate from a registered doctor is mandatory for high-altitude or difficult treks.</li>
+                  <li>Disclosure of mental health history, including anxiety, phobias, or panic attacks, is compulsory.</li>
+               </ul>
+               <h3>8. Code of Conduct</h3>
+               <ul>
+                  <li>Alcohol, drugs, and smoking are strictly prohibited. Violators will be expelled without refund.</li>
+                  <li>Aggressive behavior, harassment, or group disruption will lead to trek removal and permanent blacklisting.</li>
+                  <li>Participants delaying or obstructing group progress may be asked to withdraw.</li>
+                  <li>If you physically push or shove any trekker, you will be removed from the trip.</li>
+               </ul>
+               <h3>9. Insurance</h3>
+               <ul>
+                  <li>Comprehensive insurance for high-altitude trekking, hospitalization, and cancellations is strongly recommended.</li>
+                  <li>Himalayan Hikers is not liable for claim rejections or third-party insurer obligations.</li>
+               </ul>
+               <h3>10. Website Use</h3>
+               <ul>
+                  <li>Website content may change without notice.</li>
+                  <li>Unauthorized use, copying, or linking is prohibited.</li>
+                  <li>Himalayan Hikers is not responsible for third-party website links.</li>
+               </ul>
+               <h3>11. Photography and Media</h3>
+               <ul>
+                  <li>Participant grants Himalayan Hikers rights to use photographs/videos for promotional use unless objected to in writing.</li>
+               </ul>
+               <h3>12. Data Privacy</h3>
+               <ul>
+                  <li>Personal data is collected only for operational/legal use and not shared without consent, except as required by law.</li>
+               </ul>
+               <h3>13. Dispute Resolution</h3>
+               <ul>
+                  <li>All complaints must be submitted via email within 7 days of trek completion.</li>
+                  <li>Disputes, if unresolved, will undergo arbitration in Dehradun under Indian Law.</li>
+               </ul>
+               <h3>14. Jurisdiction</h3>
+               <ul>
+                  <li>All legal matters shall fall under the exclusive jurisdiction of the courts in Dehradun [Uttarakhand].</li>
+               </ul>
+               <h3>15. Amendments</h3>
+               <ul>
+                  <li>Himalayan Hikers reserves the right to modify these Terms & Conditions at any time without prior notice.</li>
+               </ul>
+               <p><b>Note:</b> Any references to prior website content or verbal commitments discussed are not intended to be binding.</p>
+               <p><strong>IN WITNESS WHEREOF, all Participants accept the above Terms and Conditions upon booking a trek or using the Website.</strong></p>
+            </div>
+         </div>
+         <div id="privacy" class="tab-content">
+            <div class="entry-content">
+               <h2>Privacy Policy – Himalayan Hikers</h2>
+               <p>The Privacy Policy Is In Effect From: 20-02-2025</p>
+               <p>At Himalayan Hikers, your privacy, security, and trust are our top priorities. As India’s leading trekking company, we are committed to safeguarding your personal information while ensuring a seamless, safe, and enjoyable trekking experience. This Privacy Policy explains how we collect, use, protect, and share your data, aligning with our core values of adventure safety, eco-conscious tourism, and community engagement.</p>
+               <h3>1. Information We Collect & How We Use It</h3>
+               <p>Personal Information You Provide</p>
+               <p>When you book a trek with Himalayan Hikers, we collect essential details such as your name, contact information, address, and email to facilitate your trek reservation and provide personalized assistance. If required for safety purposes, we may request additional details such as emergency contact numbers and medical history.</p>
+               <p>Browsing Data & Cookies</p>
+               <p>When you visit our website, we collect technical information such as your IP address, browser type, and operating system to improve your browsing experience. Cookies help us optimize your trek search preferences, personalize your experience, and enhance website performance.</p>
+               <p>Marketing & Communication Preferences</p>
+               <p>If you opt-in for updates, we may send you information on new trekking destinations, expert safety tips, seasonal trekking packages, and exclusive offers. You can update your preferences or opt-out at any time.</p>
+               <h3>2. Consent & Your Control Over Data</h3>
+               <p>How You Give Consent</p>
+               <p>By providing your personal details during trek booking, payment verification, or inquiry submissions, you consent to the collection and use of this data for these specific purposes. If we require additional information for marketing or other reasons, we will explicitly seek your consent.</p>
+               <p>How To Withdraw Consent</p>
+               <p>If you wish to modify, withdraw, or delete your personal data, you can contact us at <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a> or send a request via mail to Patiyowala, Choila, Chandrabani, near Wildlife Institute, ISBT, Dehradun, Uttarakhand 248007.</p>
+               <h3>3. Data Protection & Security Measures</h3>
+               <p>Your data security is of utmost importance. Himalayan Hikers follows industry-standard encryption protocols to protect personal and financial information from unauthorized access, misuse, or breaches. We comply with Payment Card Industry Data Security Standards (PCI-DSS) to ensure safe transactions.</p>
+               <ul>
+                  <li>Secure Payment Processing: All payments are processed through Razorpay, ensuring a secure, encrypted transaction with no card details stored on our servers.</li>
+                  <li>Limited Data Retention: We store personal information only as long as necessary for trek-related services, legal obligations, and customer support.</li>
+                  <li>Strict Access Controls: Only authorized personnel can access sensitive data, ensuring confidentiality and privacy at every step.</li>
+               </ul>
+               <h3>4. Third-Party Services & Data Sharing</h3>
+               <p>We only work with trusted third-party service providers who adhere to strict data security standards. Your information is shared with third parties only when necessary, such as payment processing or trek logistics coordination.</p>
+               <ul>
+                  <li>Payment Processing: Transactions are handled securely via Razorpay, which follows stringent security protocols. View Razorpay’s privacy policy here: <a href="https://razorpay.com" target="_blank" rel="noopener">https://razorpay.com</a>.</li>
+                  <li>Legal & Safety Compliance: We may disclose personal data when required by law, to enforce our policies, or to protect our customers and team members.</li>
+               </ul>
+               <p>Once you leave the Himalayan Hikers website and interact with third-party platforms, their privacy policies will apply.</p>
+               <h3>5. Your Rights & Data Control</h3>
+               <p>We respect your rights over your personal data. You have the following options:</p>
+               <ul>
+                  <li>Right to Access: Request a copy of your personal data stored with us.</li>
+                  <li>Right to Correction: Update any inaccurate or outdated information.</li>
+                  <li>Right to Deletion: Request the removal of your personal data from our systems.</li>
+                  <li>Right to Object: Opt out of marketing communications at any time.</li>
+               </ul>
+               <p>To exercise these rights, contact us at <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a>.</p>
+               <h3>6. Cookies & Tracking Technologies</h3>
+               <p>We use cookies to enhance user experience, analyze website traffic, and optimize trek-related searches. You can manage cookie preferences in your browser settings. Disabling cookies may limit certain functionalities of the website.</p>
+               <h3>7. Age Restrictions</h3>
+               <p>By using our website, you confirm that you are of legal age in your jurisdiction or have parental/guardian consent to book a trekking adventure with Himalayan Hikers.</p>
+               <h3>8. Policy Updates & Notifications</h3>
+               <p>We may update this Privacy Policy periodically to reflect changes in legal regulations, security practices, or business operations. The latest version will always be available on our website. If significant updates occur, we hold rights to add/remove without prior notice.</p>
+               <p>If Himalayan Hikers undergoes a business merger or acquisition, user data may be transferred to the new entity to ensure continued services.</p>
+               <h3>9. Contact Us</h3>
+               <p>For any privacy-related inquiries, you can contact our Privacy Compliance Officer at:</p>
+               <p>Email: <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a><br>
+                  Mailing Address: Patiyowala, Choila, Chandrabani, near Wildlife Institute, ISBT, Dehradun, Uttarakhand 248007
+               </p>
+               <p>We are committed to protecting your privacy while providing memorable, safe, and responsible Himalayan trekking experiences. Your trust is our greatest asset.</p>
+               <h3>10. FAQs – Your Privacy, Our Priority</h3>
+               <h4>1. How does <a href="https://www.himalayanhikers.in/">Himalayan Hikers</a> protect my data during trek bookings?</h4>
+               <p>We use advanced encryption, PCI-DSS-compliant payment gateways, and secure access controls to protect your data.</p>
+               <h4>2. What payment security measures are in place?</h4>
+               <p>All transactions are securely processed via Razorpay, ensuring end-to-end encryption and zero storage of sensitive payment details.</p>
+               <h4>3. How can I update or delete my personal information?</h4>
+               <p>You can send a request to <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a>, and our team will assist you with data modifications or removal.</p>
+               <h4>4. Does Himalayan Hikers share my information with third parties?</h4>
+               <p>We only share necessary details with trusted service providers for trek arrangements and payments. We never sell personal data.</p>
+               <h4>5. Can I opt out of promotional emails?</h4>
+               <p>Yes. Every promotional email includes an unsubscribe link, or you can email us at <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a>.</p>
+            </div>
+         </div>
+         <div id="copyright" class="tab-content">
+            <div class="entry-content">
+               <h2>Copyright Policy – Himalayan Hikers</h2>
+               <p>All content on this website, including text, images, videos, graphics, logos, and other materials (collectively referred to as "Content"), is the property of <strong>Himalayan Hikers</strong> or its content suppliers and is protected under Indian and international copyright laws.</p>
+               <h3>1. Ownership of Content</h3>
+               <p>All intellectual property rights, including copyright, trademarks, and other proprietary rights, belong to <strong>Himalayan Hikers</strong>. You may not reproduce, distribute, modify, transmit, display, perform, or create derivative works of any Content without our prior written permission.</p>
+               <h3>2. Limited Use</h3>
+               <p>You may view, download, or print Content solely for your personal, non-commercial use, provided that you do not modify the materials and retain all copyright and other proprietary notices.</p>
+               <h3>3. Prohibited Actions</h3>
+               <ul>
+                  <li>Unauthorized reproduction, distribution, or republication of the website content.</li>
+                  <li>Using the Content for commercial purposes without explicit permission.</li>
+                  <li>Copying or storing Content in a database, website, or any other medium for resale or redistribution.</li>
+                  <li>Removing, altering, or obscuring any copyright, trademark, or other proprietary notices.</li>
+               </ul>
+               <h3>4. Reporting Copyright Infringement</h3>
+               <p>If you believe that any Content on this website infringes your copyright, please contact us immediately at <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a> with the following information:</p>
+               <ul>
+                  <li>Your name, address, telephone number, and email address.</li>
+                  <li>A description of the copyrighted work you claim has been infringed.</li>
+                  <li>The location (URL) of the infringing material.</li>
+                  <li>A statement that you have a good faith belief that the use of the material is not authorized by the copyright owner.</li>
+                  <li>A statement that the information in your notice is accurate and, under penalty of perjury, that you are the copyright owner or authorized to act on their behalf.</li>
+                  <li>Your electronic or physical signature.</li>
+               </ul>
+               <h3>5. Disclaimer</h3>
+               <p>Himalayan Hikers reserves the right to remove any infringing content without prior notice. Unauthorized use of any Content may result in legal action in accordance with applicable copyright laws.</p>
+               <p>By using this website, you acknowledge and agree to comply with this Copyright Policy.</p>
+            </div>
+         </div>
+         <div id="cancel" class="tab-content">
+            <div>
+               <p>Booking a trek with <b>Himalayan Hikers</b> requires an understanding of our <b>trek cancellation policy</b> to ensure a smooth and transparent process. Unforeseen circumstances such as adverse weather conditions, personal emergencies, or government restrictions may lead to cancellations, making it essential to be aware of our refund and rescheduling policies.</p>
+               <p>This section outlines the <b>Himalayan Hikers trek cancellation policy</b>, including detailed guidelines on <b>refund eligibility, rescheduling options, and the importance of obtaining trek insurance</b>. We strongly advise trekkers to review these terms of trek cancellation & refund carefully before confirming their booking. Trek insurance is also highly recommended, as it provides financial protection against <b>unexpected cancellations</b> and <b>medical emergencies</b>. By familiarizing yourself with these policies, you can make informed decisions and plan your trek with confidence.</p>
+               <h2><strong>Cancellation Policy Rules & Guidelines</strong></h2>
+               <p><strong>If Cancellation Requested By The Trekker</strong></p>
+               <p>If a trekker chooses to cancel their booking, it is mandatory to notify us in writing via email or through our official contact form. The refund calculation will be based on the <b>date we receive the cancellation request</b>. The following refund structure applies:</p>
+               <ul>
+                  <li><b>30+ days before the trek start date:</b> 90% of the trek cost will be refunded.</li>
+                  <li><b>21 to 30 days before the trek start date:</b> 50% of the trek cost will be refunded.</li>
+                  <li><b>Less than 20 days before the trek start date:</b> No refund will be provided.</li>
+               </ul>
+               <p>Refunds, if applicable, will be processed within <b>7-8 business days</b> after confirmation of the trek cancellation request.</p>
+               <p><b>Note:-</b> Himalayan Hikers is not responsible for any <b>additional bank charges</b> incurred during the refund process.</p>
+               <p><strong>If Trek Is Cancelled By Himalayan Hikers</strong></p>
+               <p>In certain cases, Himalayan Hikers may cancel a trek due to <b>natural disasters, government restrictions, or safety concerns</b>. In such instances, the following options will be provided to trekkers:</p>
+               <ul>
+                  <li>An <b>alternative trek at the same cost</b>, subject to availability.</li>
+                  <li>A <b>voucher valid for 1 year</b>, which can be used for future bookings.</li>
+               </ul>
+               <p>Please note that in the event of trek cancellations initiated by Himalayan Hikers, no cash refunds will be issued.</p>
+               <h2><strong>Mid-Trek Disruptions: Refund & Rescheduling Policy</strong></h2>
+               <p><strong>If the Trek is Halted Due to Bad Weather or Route Closure</strong></p>
+               <ul>
+                  <li>No refund will be provided if the trek is interrupted due to unforeseen weather conditions or government-imposed route closures.</li>
+                  <li>Himalayan Hikers will suggest an <b>alternate trek</b>, if feasible, to continue the adventure safely.</li>
+                  <li>If no suitable alternative trek is available, a <b>voucher valid for 1 year</b> will be issued, with <b>deductions based on the number of completed trek days</b>.</li>
+               </ul>
+               <p><strong>If a Trekker Leaves Midway Due To Personal Reasons</strong></p>
+               <ul>
+                  <li>No refund will be issued for unused trek days if a trekker decides to leave mid-way due to personal reasons, including <b>medical conditions</b> or <b>emergencies</b>.</li>
+                  <li><b>Himalayan Hikers</b> will assist in <b>arranging emergency evacuation</b> if required, but <b>all associated costs must be borne by the trekker</b>.</li>
+                  <li>If you choose to <b>leave the trek midway due to personal reasons</b>, Himalayan Hikers cannot be held responsible under any circumstances.</li>
+                  <li>If you require any changes to the trek timing or any other modifications not included in our package, unfortunately, we will not be able to accommodate them.</li>
+               </ul>
+               <h2><strong>How To Request A Trek Cancellation or Refund</strong></h2>
+               <p>To request a trek cancellation or refund, please follow these steps:</p>
+               <p><b>Step 1:</b> Send a trek cancellation request via email to <a href="mailto:himalayanhikers.dun@gmail.com">himalayanhikers.dun@gmail.com</a></p>
+               <p><b>Step 2:</b> Include the following details in your email:</p>
+               <ul>
+                  <li>Booking reference number</li>
+                  <li>Trek name and scheduled start date</li>
+                  <li>Reason for cancellation</li>
+               </ul>
+               <p><b>Step 3:</b> Once we have received the trek cancellation request, we will process eligible refunds within <b>7-8 business days</b>.</p>
+               <p><b>Note:-</b> For further assistance, trekkers can contact our support team via our <a href="https://www.himalayanhikers.in/contact/">official website</a> or <b>customer service helpline</b>: <a href="tel:+91-9756197558">+91-9756197558</a>, <a href="tel:+91-7505699509">+91-7505699509</a></p>
+               <h2><strong>Why Trekkers Should Get Trek Insurance?</strong></h2>
+               <p>Trekking in high-altitude regions like the Himalayas involves inherent risks, including unpredictable weather, <a href="https://www.himalayanhikers.in/acute-mountain-sickness/">altitude sickness</a>, and potential injuries. To safeguard against unexpected financial burdens, we strongly recommend that all trekkers purchase comprehensive <a href="https://www.linkedin.com/pulse/top-5-travel-insurance-companies-india-which-one-should/" target="_blank" rel="noopener">trek insurance</a> that includes the following coverage:</p>
+               <p><b>1 Medical Emergencies & Evacuation</b></p>
+               <ul>
+                  <li>High-altitude sickness and injuries can occur at any time during the trek.</li>
+                  <li>Trek insurance should cover <b>emergency medical expenses, evacuation, and hospitalization</b> costs.</li>
+                  <li>In case of severe emergencies, helicopter evacuation may be required, which can be <b>costly if uninsured</b>.</li>
+               </ul>
+               <p><b>2 Trip Cancellation & Delays</b></p>
+               <ul>
+                  <li>Unforeseen cancellations due to personal emergencies, natural disasters, or government restrictions may result in financial losses.</li>
+                  <li>A good trek insurance policy provides compensation for <b>prepaid trek costs in case of cancellations or delays</b>.</li>
+               </ul>
+               <p><b>3 Lost Or Damaged Equipment</b></p>
+               <ul>
+                  <li>Trekking involves carrying essential gear, and loss or damage can occur.</li>
+                  <li>Insurance policies covering <b>lost, stolen, or damaged trekking gear</b> ensure trekkers do not bear unexpected expenses.</li>
+               </ul>
+               <p><b>4 Personal Liability & Accidents</b></p>
+               <ul>
+                  <li>Some policies also provide <b>coverage for accidental damage or third-party liability</b>.</li>
+                  <li>This can be beneficial in case of unforeseen incidents involving other trekkers or property.</li>
+               </ul>
+               <p><b>5 Mandatory Insurance For High-Altitude Treks</b></p>
+               <ul>
+                  <li>Certain high-altitude treks may <b>require mandatory insurance coverage</b> before participation.</li>
+                  <li>We advise trekkers to <b>verify their trek insurance’s policy covers trekking above</b> <b>4,000 meters altitude</b>.</li>
+               </ul>
+               <p>By securing <b>comprehensive trek insurance</b>, trekkers can begin their trekking adventure with confidence, knowing they are <b>protected against potential financial and medical challenges.</b></p>
+               <p><b>Note:- </b><b>Himalayan Hikers</b> does not provide or cover trek insurance, and it remains the trekker’s responsibility to ensure they have adequate coverage before commencing their trek.</p>
+               <h2><strong>Frequently Asked Questions (FAQs)</strong></h2>
+               <p><b>Q1. Can I transfer my booking to another person?</b></p>
+               <p>Yes, trek bookings can be transferred to another person, but prior notification is required. Please inform us in advance to update the booking details.</p>
+               <p><b>Q2. What if I cancel due to a medical emergency?</b></p>
+               <p>The same <b>refund policy applies</b> unless you have <b>trek insurance covering medical trip cancellations</b>.</p>
+               <p><b>Q3. Will I get a refund if my trek is rescheduled by Himalayan Hikers?</b></p>
+               <p>No cash refund, but you will receive a <b>voucher valid for 1 year</b>.</p>
+            </div>
+         </div>
+      </div>
+      <style>
+         h2, h3, h4, h5, h6 {
+         font-size: 14px;
+         }
+         section { border-bottom: 1px solid #ddd; }
+         .tab {
+         max-width: 1000px; margin: auto; padding: 15px 20px;
+         display: flex; gap: 20px; flex-wrap: wrap;
+         }
+         .tab {
+         max-width: 1000px;
+         margin: auto;
+         padding: 15px 20px;
+         display: flex;
+         gap: 20px;
+         flex-wrap: nowrap;       /* nowrap = ek line me rehne do */
+         overflow-x: auto;        /* horizontal scroll enable */
+         -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+         scrollbar-width: none;   /* Firefox scrollbar hide */
+         }
+         .tab::-webkit-scrollbar {
+         display: none;           /* Chrome/Safari scrollbar hide */
+         }
+         .tab a {
+         flex: 0 0 auto;          /* flex item width auto, na expand na shrink */
+         text-decoration: none;
+         color: #555;
+         font-size: 14px;
+         cursor: pointer;
+         padding: 8px 12px;
+         border-radius: 5px;
+         transition: all 0.3s ease;
+         }
+         .tab a.active {
+         border-bottom: 2px solid #ff4300; color: #000; font-weight: bold;
+         }
+         .container2 { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+         .tab-content { display: none; }
+         .tab-content.active { display: block; }
+      </style>
+      <style>
+   /* Global Styles */
+   *,
+   *::before,
+   *::after {
+   box-sizing: border-box;
+   }
+   body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   overflow-x: hidden;
+   }
+   html {
+   width: 100%;
+   }
+   .footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   width: 100%;
+   padding: 0 20px;
+   box-sizing: border-box;
+   align-items: stretch;
+   }
+</style>
+<footer class="footer-wrapper footer-layout1" style="background:#fff;   border-top: 2px solid #ff4300;">
+   <div class="widget-area">
+      <div class="footer-container">
+         <div class="row justify-content-between">
+            <div class="col-md-6 col-xl-3">
+               <div class="widget footer-widget">
+                  <div class="th-widget-about">
+                     <div class="about-logo">
+                        <a href="https://himalayanhikers.in"><img src="/assets/img/logo.webp" alt="Himalayan Hikers"></a>
+                     </div>
+                     <p class="about-text">Himalayan Hikers is the most trusted trekking community in India Since 1990</p>
+                     <div class="th-social">
+                        <a href="https://www.facebook.com/HimalayanHikers.in/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                        </a>
+                        <a href="https://x.com/himalayanhiker" target="_blank">
+                        <img src="assets/img/social/x.png" alt="Twitter Logo">
+                        </a>
+                        <a href="https://www.linkedin.com/company/himalayanhikers/" target="_blank">
+                        <img src="assets/img/social/link.png" alt="LinkedIn Logo">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCrPcti4mYSMzwjvmS6nLCXQ" target="_blank">
+                        <img src="/assets/img/social/youtube.png" alt="WhatsApp Logo">
+                        </a>
+                        <a href="https://www.instagram.com/himalayan_hikers/" target="_blank">
+                        <img src="assets/img/social/instagram.png" alt="Instagram Logo">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+               <div class="widget widget_nav_menu footer-widget">
+                  <h3 class="widget_title">Quick Links</h3>
+                  <div class="menu-all-pages-container">
+                     <ul class="menu">
+                        <li><a href="https://himalayanhikers.in/our-mountaineering-experience">Our Mountaineering Experience</a></li>
+                        <li><a href="https://himalayanhikers.in/document/Medical-Certificate.pdf" target="_blank">Medical Certificate</a></li>
+                        <li><a href="https://himalayanhikers.in/document/declaration-form.pdf" target="_blank">Declaration Form</a></li>
+                        <li><a href="https://himalayanhikers.in/faq">FAQs</a></li>
+                        <li><a href="https://himalayanhikers.in/disclaimer">Disclaimer</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-xl-6">
+               <div class="widget footer-widget">
+                  <h3 class="widget_title">Contact Us</h3>
+                  <div class="th-widget-contact">
+                     <!-- Phone Info -->
+                     <div class="info-box_text">
+                        <i class="fa-solid fa-phone" style="color:#ff4300"></i><!-- Phone icon -->
+                        <div class="details" style="display: flex; gap: 2px; align-items: center; white-space: nowrap; flex-wrap: nowrap;">
+                           <a href="tel:+91-9756197558" class="info-box_link">+91-9756197558</a>
+                           <span class="divider"> | </span>
+                           <a href="tel:+91-7505699509" class="info-box_link">+91-7505699509</a>
+                        </div>
+                     </div>
+                     <!-- Email Info -->  
+                     <div class="info-box_text">
+                        <i class="fas fa-envelope" style="color:#ff4300"></i> <!-- Envelope icon -->
+                        <div class="details">
+                           <p><a href="mailto:himalayanhikers.dun@gmail.com" class="info-box_link">himalayanhikers.dun@gmail.com</a></p>
+                        </div>
+                     </div>
+                     <!-- Location Info -->
+                     <div class="office-wrapper">
+                        <div class="info-box_text">
+                           <div class="details">
+                              <p><strong>Sankari Office</strong><br>
+                                 35GJ+PJ8, Mori-Sankari Rd, Sidri, Sankri, Uttarakhand 249128
+                              </p>
+                           </div>
+                        </div>
+                        <div class="info-box_text">
+                           <div class="details">
+                              <p><strong>Dehradun Office</strong><br>
+                                 Patiyowala, Choila, Chandrabani, near wildlife institute, ISBT, Dehradun, Uttarakhand 248007
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="copyright-wrap" data-bg-src="assets/img/bg/bg.png">
+      <div class="container">
+         <div class="row justify-content-between align-items-center">
+            <!-- Left side copyright -->
+            <div class="col-md-4 col-12 text-center text-md-start mb-2 mb-md-0">
+               <p class="copyright-text">
+                  Copyright @ 1990-2025 <a href="https://himalayanhikers.in">Himalayan Hikers</a>. 
+                  All Rights Reserved
+               </p>
+            </div>
+            <!-- Center policy links -->
+            <div class="col-md-4 col-12 text-center mb-2 mb-md-0">
+               <ul class="footer-links">
+                  <li><a href="https://himalayanhikers.in/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="https://himalayanhikers.in/terms-of-service">Terms of Service</a></li>
+                  <li><a href="https://himalayanhikers.in/cancel-policy">Cancellation Policy</a></li>
+               </ul>
+            </div>
+            <!-- Right side cards -->
+            <div class="col-md-4 col-12 text-center text-md-end">
+               <div class="footer-card">
+                  <span class="title" style="color: black;">We Accept</span>
+                  <img src="assets/img/shape/cards.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+<style>
+   .footer-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;   /* mobile me neeche aane ke liye */
+   gap: 15px;
+   justify-content: center;
+   }
+   .footer-links li {
+   display: inline-block;
+   }
+   .footer-links a {
+   color: #000;
+   text-decoration: none;
+   font-size: 14px;
+   }
+   .footer-links a:hover {
+   text-decoration: underline;
+   }
+   .office-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 10px;
+   }
+   .office-wrapper .info-box_text {
+   display: flex;
+   align-items: flex-start;
+   gap: 10px;
+   flex: 1 1 45%;  /* dono side me evenly */
+   min-width: 280px;
+   }
+   .office-wrapper .details p {
+   margin: 0;
+   line-height: 1.6;
+   }
+   /* Mobile ke liye */
+   @media (max-width: 768px) {
+   .office-wrapper {
+   flex-direction: column; /* neeche neeche aa jayenge */
+   }
+   .office-box {
+   flex: 1 1 100%;
+   }
+   }
+</style>
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+     const searchBtn = document.querySelector(".search-btn");
+     const searchBar = document.getElementById("mobileSearch");
+   
+     searchBtn.addEventListener("click", function() {
+       // toggle show/hide
+       if (searchBar.style.display === "block") {
+         searchBar.style.display = "none";
+       } else {
+         searchBar.style.display = "block";
+       }
+     });
+   });
+</script>      <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script>
+         const links = document.querySelectorAll(".tab-link");
+         const contents = document.querySelectorAll(".tab-content");
+         const breadTitle = document.querySelector(".breadcumb-title"); // breadcrumb title
+         
+         function showTab(tab) {
+           // hide all
+           contents.forEach(c => c.classList.remove("active"));
+           links.forEach(l => l.classList.remove("active"));
+         
+           // show selected
+           document.getElementById(tab).classList.add("active");
+           document.querySelector(`[data-tab="${tab}"]`).classList.add("active");
+         
+           // breadcrumb title update
+           const tabText = document.querySelector(`[data-tab="${tab}"]`).textContent;
+           breadTitle.textContent = tabText;
+         }
+         
+         // click event
+         links.forEach(link => {
+           link.addEventListener("click", e => {
+             e.preventDefault();
+             const tab = link.dataset.tab;
+             const url = link.dataset.url;
+         
+             // change tab
+             showTab(tab);
+         
+             // update URL (no reload)
+             history.pushState({tab}, "", url);
+           });
+         });
+         
+         // handle back/forward button
+         window.addEventListener("popstate", e => {
+           const tab = e.state?.tab || "terms";
+           showTab(tab);
+         });
+         
+         // on first load - check path
+         window.addEventListener("load", () => {
+           const path = window.location.pathname;
+           if (path.includes("privacy-policy")) showTab("privacy");
+           else if (path.includes("copyright-policy")) showTab("copyright");
+           else if (path.includes("cancellation-policy")) showTab("cancel");
+           else showTab("terms");
+         });
+      </script>
