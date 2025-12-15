@@ -1,0 +1,21 @@
+/* Hide Himalayan Hikers logo from header */
+.header-logo-desktop {
+  display: none !important;
+}
+
+.header-logo-desktop img {
+  display: none !important;
+}
+
+.header-logo-desktop a {
+  display: none !important;
+}
+
+/* Remove logo from mobile header, keeping search and menu buttons */
+.header-logo-mobile > a {
+  display: none !important;
+}
+
+.header-logo-mobile > a img {
+  display: none !important;
+}
