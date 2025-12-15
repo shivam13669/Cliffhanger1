@@ -3674,6 +3674,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const allFaqItems = document.querySelectorAll(".faq-item");
+      if (question) {
 
     allFaqItems.forEach(item => {
       const question = item.querySelector(".faq-question");
@@ -3682,6 +3683,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
         if (item.classList.contains("active")) {
           item.classList.remove("active");
         } else {
+      }
           allFaqItems.forEach(i => i.classList.remove("active"));
           item.classList.add("active");
         }
