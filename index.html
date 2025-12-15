@@ -1685,7 +1685,9 @@ input[type="checkbox"] ~ label:before {
       
    </script>
    <script>
-      document.getElementById("mobileSearchInput").addEventListener("keyup", function () {
+      const mobileSearchInput = document.getElementById("mobileSearchInput");
+      if (mobileSearchInput) {
+        mobileSearchInput.addEventListener("keyup", function () {
         const query = this.value;
         const output = document.getElementById("mobileSearchResults");
       
@@ -1704,6 +1706,7 @@ input[type="checkbox"] ~ label:before {
           .catch(err => {
             output.innerHTML = "<div style='color:red;'>Error loading results</div>";
             output.style.display = "block";
+      }
           });
       });
    </script>        </head>
@@ -3671,6 +3674,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const allFaqItems = document.querySelectorAll(".faq-item");
+      if (question) {
 
     allFaqItems.forEach(item => {
       const question = item.querySelector(".faq-question");
@@ -3679,6 +3683,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
         if (item.classList.contains("active")) {
           item.classList.remove("active");
         } else {
+      }
           allFaqItems.forEach(i => i.classList.remove("active"));
           item.classList.add("active");
         }
@@ -4550,6 +4555,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
    }
 </style>
 <script>
+     if (searchBtn && searchBar) {
    document.addEventListener("DOMContentLoaded", function() {
      const searchBtn = document.querySelector(".search-btn");
      const searchBar = document.getElementById("mobileSearch");
@@ -4562,6 +4568,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
          searchBar.style.display = "block";
        }
      });
+     }
    });
 </script>      <!--==============================
          All Js File
@@ -4569,6 +4576,7 @@ Trekking demands a good investment and this extremely expensive activity is the 
       <!-- Jquery -->
       <!-- Jquery -->
       <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/intersection-observer-fix.js"></script>
       <!-- Swiper Js -->
       <script src="assets/js/swiper-bundle.min.js"></script>
       <!-- Bootstrap -->
@@ -4623,7 +4631,6 @@ $(window).on("load", function () {
 </script>
 
       <!-- Main Js File -->
-      <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
       <script src="assets/js/main.js"></script>
       <link rel="stylesheet" href="assets/css/hide-logo.css">
       <script src="assets/js/hide-logo.js"></script>
