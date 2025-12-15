@@ -1606,4 +1606,38 @@ $(".to").text("$" + $(".price_slider").slider("values", 1));
         initMobileSearch();
     }
 
+    /*---------- Fix: Convert absolute URLs to relative paths ----------*/
+    var fixNavigation = function() {
+        // Convert absolute himalayanhikers.in URLs to relative paths
+        var links = document.querySelectorAll('a[href*="himalayanhikers.in"]');
+
+        links.forEach(function(link) {
+            var href = link.getAttribute('href');
+
+            if (href && href.includes('himalayanhikers.in')) {
+                // Extract the path part after the domain
+                var url = new URL(href, window.location.origin);
+                var pathname = url.pathname;
+
+                // Set the href to relative path
+                link.setAttribute('href', pathname);
+            }
+        });
+
+        // Also handle the logo links that navigate to home
+        var logoLinks = document.querySelectorAll('.header-logo-desktop a, .header-logo-mobile a, .mobile-logo a');
+        logoLinks.forEach(function(link) {
+            var href = link.getAttribute('href');
+            if (href === 'https://himalayanhikers.in' || href === 'https://himalayanhikers.in/') {
+                link.setAttribute('href', '/');
+            }
+        });
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", fixNavigation);
+    } else {
+        fixNavigation();
+    }
+
 })(jQuery);
