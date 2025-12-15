@@ -1685,7 +1685,9 @@ input[type="checkbox"] ~ label:before {
       
    </script>
    <script>
-      document.getElementById("mobileSearchInput").addEventListener("keyup", function () {
+      const mobileSearchInput = document.getElementById("mobileSearchInput");
+      if (mobileSearchInput) {
+        mobileSearchInput.addEventListener("keyup", function () {
         const query = this.value;
         const output = document.getElementById("mobileSearchResults");
       
@@ -1704,6 +1706,7 @@ input[type="checkbox"] ~ label:before {
           .catch(err => {
             output.innerHTML = "<div style='color:red;'>Error loading results</div>";
             output.style.display = "block";
+      }
           });
       });
    </script>        </head>
