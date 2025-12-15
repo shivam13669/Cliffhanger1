@@ -2583,16 +2583,16 @@ input[type="checkbox"] ~ label:before {
                      <div class="info-box_text">
                         <i class="fa-solid fa-phone" style="color:#ff4300"></i><!-- Phone icon -->
                         <div class="details" style="display: flex; gap: 2px; align-items: center; white-space: nowrap; flex-wrap: nowrap;">
-                           <a href="tel:+91-9756197558" class="info-box_link">+91-9756197558</a>
+                           <a href="tel:+91-1234567890" class="info-box_link">+91-1234567890</a>
                            <span class="divider"> | </span>
-                           <a href="tel:+91-7505699509" class="info-box_link">+91-7505699509</a>
+                           <a href="tel:+91-9876543210" class="info-box_link">+91-9876543210</a>
                         </div>
                      </div>
                      <!-- Email Info -->  
                      <div class="info-box_text">
                         <i class="fas fa-envelope" style="color:#ff4300"></i> <!-- Envelope icon -->
                         <div class="details">
-                           <p><a href="mailto:himalayanhikers.dun@gmail.com" class="info-box_link">himalayanhikers.dun@gmail.com</a></p>
+                           <p><a href="mailto:support@cliffhanger.com" class="info-box_link">support@cliffhanger.com</a></p>
                         </div>
                      </div>
                      <!-- Location Info -->
