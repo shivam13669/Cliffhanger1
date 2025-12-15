@@ -920,14 +920,16 @@
 
     /*----------- 11. Magnific Popup ----------*/
     /* magnificPopup img view */
-    $(".popup-image").magnificPopup({
-        type: "image",
-        mainClass: 'mfp-zoom-in',
-        removalDelay: 260,
-        gallery: {
-            enabled: true,
-        },
-    });
+    if ($(".popup-image").length && $.fn.magnificPopup) {
+        $(".popup-image").magnificPopup({
+            type: "image",
+            mainClass: 'mfp-zoom-in',
+            removalDelay: 260,
+            gallery: {
+                enabled: true,
+            },
+        });
+    }
 
     /* magnificPopup video view */
     $(".popup-video").magnificPopup({
