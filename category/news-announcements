@@ -72,7 +72,7 @@ input[type="checkbox"] ~ label:before {
       <div class="th-menu-area text-center">
          <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
          <div class="mobile-logo">
-            <a href="https://himalayanhikers.in"><img src="../assets/img/logo.webp" alt="Himalayan Hikers" style=" width: 85% !important;"></a>
+            <a href="https://himalayanhikers.in"><img src="../assets/img/logo.webp" alt="CliffHanger" style=" width: 85% !important;"></a>
          </div>
          <div class="th-mobile-menu">
             <ul>
@@ -261,7 +261,7 @@ input[type="checkbox"] ~ label:before {
 }
    </style>
    <div class="whatsapp">
-    <a class="d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=917505699509&amp;source=Website&amp;text=Hello,Himalayan Hikers"><i class="fa-brands fa-whatsapp"></i></a>
+    <a class="d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=917505699509&amp;source=Website&amp;text=Hello,CliffHanger"><i class="fa-brands fa-whatsapp"></i></a>
 </div>
    <header class="th-header1">
       <!-- Top Header -->
@@ -272,13 +272,13 @@ input[type="checkbox"] ~ label:before {
                <!-- Desktop Logo Only -->
                <div class="header-logo-desktop">
                   <a href="https://himalayanhikers.in">
-                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  <img src="../assets/img/logo.webp" alt="CliffHanger">
                   </a>
                </div>
                <!-- Mobile Logo + Menu Button -->
                <div class="header-logo-mobile">
                   <a href="https://himalayanhikers.in">
-                  <img src="../assets/img/logo.webp" alt="Himalayan Hikers">
+                  <img src="../assets/img/logo.webp" alt="CliffHanger">
                   </a>
                   <!-- Search button -->
                   <i class="fa fa-search search-btn"></i>
@@ -1682,9 +1682,9 @@ input[type="checkbox"] ~ label:before {
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>Himalaayn Hikers</title>
-      <meta name="author" content="Himalayan Hikers">
-      <meta name="description" content="Himalayan Hikers - India's No1 Trekking Company">
-      <meta name="keywords" content="Himalayan Hikers - India's No1 Trekking Company">
+      <meta name="author" content="CliffHanger">
+      <meta name="description" content="CliffHanger - India's No1 Trekking Company">
+      <meta name="keywords" content="CliffHanger - India's No1 Trekking Company">
       <meta name="robots" content="INDEX,FOLLOW">
      </head>
       <body>
@@ -2052,10 +2052,10 @@ input[type="checkbox"] ~ label:before {
                      <img 
                         class="blogdesign-image" 
                         src="https://himalayanhikers.in/root-admin-laravel-panel/uploads/blog/card/Important-Update-for-Himalayan-Hikers-2.png" 
-                        alt="Important Update for Himalayan Hikers | Policy Revisions Due to Kashmir Security Situation"
+                        alt="Important Update for CliffHanger | Policy Revisions Due to Kashmir Security Situation"
                         >
                      <div class="blogdesign-content">
-                        <div class="blogdesign-title">Important Update for Himalayan Hikers | Policy Revisions Due to Kashmir Security Situation</div>
+                        <div class="blogdesign-title">Important Update for CliffHanger | Policy Revisions Due to Kashmir Security Situation</div>
                         <div class="blogdesign-author">By Kuldeep Singh Rawat</div>
                         <div class="blogdesign-date">April 25, 2025</div>
                      </div>
@@ -2554,7 +2554,7 @@ input[type="checkbox"] ~ label:before {
                      <form class="newsletter-form" action="submit" method="POST">
                         <input class="form-control" type="email" name="newsletter_email" placeholder="Enter Email" required>
                         <button type="submit" name="newsletter_submit" class="th-btn style3">
-                        Subscribe Now <img src="/assets/img/icon/plane.svg" alt="Himalayan Hikers Trekking community">
+                        Subscribe Now <img src="/assets/img/icon/plane.svg" alt="CliffHanger Trekking community">
                         </button>
                      </form>
                   </div>
@@ -2566,9 +2566,9 @@ input[type="checkbox"] ~ label:before {
                <div class="widget footer-widget">
                   <div class="th-widget-about">
                      <div class="about-logo">
-                        <a href="https://himalayanhikers.in"><img src="/assets/img/logo.webp" alt="Himalayan Hikers"></a>
+                        <a href="https://himalayanhikers.in"><img src="/assets/img/logo.webp" alt="CliffHanger"></a>
                      </div>
-                     <p class="about-text">Himalayan Hikers is the most trusted trekking community in India Since 1990</p>
+                     <p class="about-text">CliffHanger is the most trusted trekking community in India Since 1990</p>
                      <div class="th-social">
                         <a href="https://www.facebook.com/HimalayanHikers.in/" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
@@ -2686,7 +2686,7 @@ input[type="checkbox"] ~ label:before {
             <!-- Left side copyright -->
             <div class="col-12 col-md-4 text-center text-md-start mb-2 mb-md-0">
                <p class="copyright-text">
-                  Copyright @ 1990-2025 <a href="home-travel">Himalayan Hikers</a>. 
+                  Copyright @ 1990-2025 <a href="home-travel">CliffHanger</a>. 
                   All Rights Reserved
                </p>
             </div>
@@ -2702,7 +2702,7 @@ input[type="checkbox"] ~ label:before {
             <div class="col-12 col-md-4 text-center text-md-end">
                <div class="footer-card">
                   <span class="title" style="color: black;">We Accept</span>
-                  <img src="/assets/img/shape/cards.png" alt="Himalayan Hikers">
+                  <img src="/assets/img/shape/cards.png" alt="CliffHanger">
                </div>
             </div>
          </div>
