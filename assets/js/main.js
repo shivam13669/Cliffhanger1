@@ -920,14 +920,16 @@
 
     /*----------- 11. Magnific Popup ----------*/
     /* magnificPopup img view */
-    $(".popup-image").magnificPopup({
-        type: "image",
-        mainClass: 'mfp-zoom-in',
-        removalDelay: 260,
-        gallery: {
-            enabled: true,
-        },
-    });
+    if ($(".popup-image").length && $.fn.magnificPopup) {
+        $(".popup-image").magnificPopup({
+            type: "image",
+            mainClass: 'mfp-zoom-in',
+            removalDelay: 260,
+            gallery: {
+                enabled: true,
+            },
+        });
+    }
 
     /* magnificPopup video view */
     $(".popup-video").magnificPopup({
@@ -1559,9 +1561,43 @@ $(".to").text("$" + $(".price_slider").slider("values", 1));
     //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
     //       return false;
     //     }
-    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {  
+    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
     //       return false;
-    //     } 
-    //   }   
+    //     }
+    //   }
+
+    /*---------- Fix: Mobile Search Input addEventListener ----------*/
+    var initMobileSearch = function() {
+        const mobileSearchInput = document.getElementById("mobileSearchInput");
+        if (!mobileSearchInput) return;
+
+        mobileSearchInput.addEventListener("keyup", function () {
+            const query = this.value;
+            const output = document.getElementById("mobileSearchResults");
+
+            if (query.length === 0) {
+                output.innerHTML = "";
+                output.style.display = "none";
+                return;
+            }
+
+            fetch("search.php?q=" + encodeURIComponent(query))
+                .then(response => response.text())
+                .then(data => {
+                    output.innerHTML = data;
+                    output.style.display = "block";
+                })
+                .catch(err => {
+                    output.innerHTML = "<div style='color:red;'>Error loading results</div>";
+                    output.style.display = "block";
+                });
+        });
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initMobileSearch);
+    } else {
+        initMobileSearch();
+    }
 
 })(jQuery);

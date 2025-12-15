@@ -1,0 +1,28 @@
+/* Hide Himalayan Hikers logo but keep space for layout */
+.header-logo-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  visibility: hidden;
+  /* Keep the space occupied but content invisible */
+}
+
+.header-logo-desktop img {
+  visibility: hidden;
+  max-height: 70px;
+  width: auto;
+}
+
+.header-logo-desktop a {
+  visibility: hidden;
+}
+
+/* Remove logo from mobile header, keeping search and menu buttons */
+.header-logo-mobile > a {
+  visibility: hidden;
+}
+
+.header-logo-mobile > a img {
+  visibility: hidden;
+}
